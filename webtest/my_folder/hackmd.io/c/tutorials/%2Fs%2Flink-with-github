@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="dev">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="mobile-web-app-capable" content="yes">
+    
+    
+    <meta name="description" content="  HackMD Tutorial Book === **[中文版](/c/tutorials-tw)**  HackMD has many powerful features that could ">
+    
+    <title>HackMD Tutorial Book - HackMD</title>
+    <link rel="icon" type="image/png" href="../../favicon.png">
+	<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+    
+<script nonce="a766b077-fe32-44d8-adeb-5bb4a142dfd2">
+window.domain = 'hackmd.io'
+window.urlpath = ''
+window.debug = false
+window.version = '1.3.0'
+window.brand = 'HackMD'
+
+window.GOOGLE_API_KEY = 'AIzaSyCjSrqWHhmWJnoI7JlD88XDSaBgiKbaenA'
+window.GOOGLE_CLIENT_ID = '911617723593-drikdibvvn63slfd6kbqigo8ql1no55s.apps.googleusercontent.com'
+window.DROPBOX_APP_KEY = 'rdoizrlnkuha23r'
+
+window.PLANTUML_SERVER = 'https://ptuml.hackmd.io'
+
+window.ASSET_URL = 'https://assets.hackmd.io'
+
+window.USER_CAN_CREATE_TEAM = true
+window.USER_CAN_DELETE_ACCOUNT = true
+window.USER_DELETE_ACCOUNT_VIA_EMAIL = true
+window.PAYMENT_ENABLED = true
+window.FREE_TEAM_NUM = 3
+window.FREE_TEAM_MEMBER_NUM = 3
+window.FREE_PUBLIC_TEAM_NUM = 10
+
+window.ALLOW_ANONYMOUS = true
+window.PUBLIC_OVERVIEW = false
+window.INTERNAL_PUBLIC_OVERVIEW = false
+
+
+
+
+
+
+
+window.USE_CDN = false
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+
+    
+<!-- Google Tag Manager -->
+<script nonce="a766b077-fe32-44d8-adeb-5bb4a142dfd2">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KLW9Z3');</script>
+<!-- End Google Tag Manager -->
+
+
+    <meta property="fb:app_id" content="1436904003272070">
+
+<meta name="twitter:image:src" content="https://i.imgur.com/ZmEEvep.png" />
+
+<meta name="twitter:site" content="@hackmdio" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="HackMD Tutorial Book - HackMD" />
+
+<meta name="twitter:description" content="  HackMD Tutorial Book === **[中文版](/c/tutorials-tw)**  HackMD has many powerful features that could " />
+
+
+<meta property="og:image" content="https://i.imgur.com/ZmEEvep.png" />
+
+<meta property="og:site_name" content="HackMD" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="HackMD Tutorial Book - HackMD" />
+
+<meta property="og:description" content="  HackMD Tutorial Book === **[中文版](/c/tutorials-tw)**  HackMD has many powerful features that could " />
+
+
+	
+    <link rel="stylesheet" href='https://assets.hackmd.io/build/emojify.js/dist/css/basic/emojify.min.css'>
+     <link href="https://assets.hackmd.io/build/font-vendor.b86e2bf451b246b1a88e.css" rel="stylesheet"><link href="https://assets.hackmd.io/build/common-vendor.b8ecfc406ac0b5f77a26.css" rel="stylesheet"><link href="https://assets.hackmd.io/build/book-vendor.61433160525cb39ef99d.css" rel="stylesheet"><link href="https://assets.hackmd.io/build/book.692bc7671355e3e56097.css" rel="stylesheet">
+	
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" integrity="sha256-3Jy/GbSLrg0o9y5Z5n1uw0qxZECH7C6OQpVBgNFYa0g=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js" integrity="sha256-g6iAfvZp+nDQ2TdTR/VVKJf3bGro4ub5fvWSWVRi2NE=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.5.9/es5-shim.min.js" integrity="sha256-8E4Is26QH0bD52WoQpcB+R/tcWQtpzlCojrybUd7Mxo=" crossorigin="anonymous"></script>
+<![endif]-->
+
+</head>
+
+<body style="display:none;">
+    <div id="doc" class="container markdown-body" style="display:none;" data-hard-breaks="true">
+
+HackMD Tutorial Book
+===
+**[中文版](/c/tutorials-tw)**
+
+HackMD has many powerful features that could boost your productivity immensely, immeditately. Yet they are often subtle to discover. This tutorial is a collection of short introductions on these great features. 
+Feel free to leave comments below to request for (or contribute) tutorials on certain topics. 
+You can also leave comments below each tutorial to ask for clarifications or report bugs.
+
+If you want a quick overview of all features, visit [features](/features)
+
+
+Introduction
+---
+- [Welcome](/s/tutorials)
+- [Features](/s/features)
+
+Text Editor
+---
+- [Use Regular Expression to search in text editor](/s/how-to-regex-editor)
+- [Emoji cheat sheet](https://github.com/ikatyang/emoji-cheat-sheet) [target=_blank]
+- [How to use MathJax &amp; UML](/s/MathJax-and-UML)
+- [How to create table](/s/how-to-create-table)
+
+Collaboration
+---
+- [Invite others to a private note](/s/invite)
+- [Live Host a Collaborative Session](/s/live-hosting)
+- [Use comments to collaborate asynchronously](/s/how-to-use-comments)
+
+Relating Notes
+---
+- [Using Link Exploder to create a FAQ](/s/how-to-link-exploder)
+- [Embed another note](/s/how-to-embed-note)
+
+Notes Management
+---
+- [How to save versions](/s/how-to-save)
+- [How to sync with GitHub](/s/link-with-github)
+- [Publish with permalink](/s/how-to-publish-note)
+- [How to use template](/s/how-to-use-template)
+- [Tag notes](/s/how-to-tag-notes)
+- [Delete notes](/s/how-to-delete-note)
+
+Book Mode
+---
+- [How to create a book](/s/how-to-create-book)
+
+Slide Mode
+---
+- [How to create a slide deck](/s/how-to-create-slide-deck)
+
+Team Space
+---
+
+- [What is Team?](/@docs/what-is-team)
+- [Create and manage Team](/@docs/create-and-manage-team)
+- [Manage Team notes](/@docs/manage-team-notes)
+- [Insert image in Team notes](/@docs/insert-image-in-team-note)
+- [Unlock Team member limit](/@docs/unlock-team-member-limit)
+
+Others
+---
+- [Browser extension: HackMD-it](/s/hackmd-it)
+- [Manage profile page](/s/all-about-profile-page)
+- [Choose your interface language](/s/how-to-choose-language)
+- [Making video calls with Tico Wondercall](/@docs/tico-wondercall-integration)
+
+###### tags: `tutorial`</div>
+    <div id="meta" style="display: none;">{&#34;tags&#34;:&#34;tutorials&#34;,&#34;disqus&#34;:&#34;hackmd&#34;}</div>
+    <div class="summary">
+        <div class="toolbar">
+            <div class="form-group input-group-sm search">
+                <input class="form-control ui-summary-search" placeholder="Search title..." />
+            </div>
+            <div class="btn ui-summary-action ui-summary-refresh" aria-hidden="true" title="Refresh"><i class="fa fa-refresh" aria-hidden="true"></i></div>
+            <a class="btn ui-summary-action ui-summary-edit" href="../../tutorials" target="_blank" title="Edit"><i class="fa fa-pencil" aria-hidden="true"></i></a>
+            <div class="btn ui-summary-action ui-summary-collapse" aria-hidden="true" title="Collapse"><i class="fa fa-angle-double-left" aria-hidden="true"></i></div>
+        </div>
+        <div id="summary"></div>
+    </div>
+    <div class="topbar">
+        <div class="btn ui-summary-action ui-summary-open" aria-hidden="true" title="Expand""><span class="visible-xs-inline">Expand menu </span><i class="fa fa-angle-double-right" aria-hidden="true"></i></div>
+    </div>
+    <div class="container-mask"></div>
+    <div class="book-container">
+        <div class="ui-book-spinner unselectable hidden-print"></div>
+    </div>
+</body>
+
+</html>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-60728495-1"></script>
+<script nonce="a766b077-fe32-44d8-adeb-5bb4a142dfd2">
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    let userid = (document.cookie.match('(^|; )userid=([^;]*)')||0)[2];
+    gtag('config', 'UA-60728495-1', {'user_id': userid});
+</script>
+<script src="https://browser.sentry-cdn.com/5.15.5/bundle.min.js" crossorigin="anonymous"></script>
+<script nonce="a766b077-fe32-44d8-adeb-5bb4a142dfd2">Sentry.init({ dsn: 'https://73410f1915d84abc8b2dd1f1aabd1c82@sentry.hackmd.dev/4', environment: 'production', integrations: function (intrus) { return intrus.filter(function (itr) { return itr.name !== 'TryCatch' }) } });</script>
+
+
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KLW9Z3"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<script src="../../api/i18n.js"></script>
+
+ <script src="https://assets.hackmd.io/build/font-vendor.3c28db3001b8bd6f1d3f.js" defer="defer"></script><script src="https://assets.hackmd.io/build/common-vendor.d485f77e88ea7ed44236.js" defer="defer"></script><script src="https://assets.hackmd.io/build/book-vendor.bf2692a1966e7deff599.js" defer="defer"></script><script src="https://assets.hackmd.io/build/book-common.d791a009dffb6d2cb7fe.js" defer="defer"></script><script src="https://assets.hackmd.io/build/book.fe14ad6fa275b731ec5e.js" defer="defer"></script>
+
+
+

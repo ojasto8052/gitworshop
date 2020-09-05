@@ -1,0 +1,1042 @@
+<!DOCTYPE html>
+<html lang="dev">
+
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="mobile-web-app-capable" content="yes">
+
+<meta name="description" content="Best way to write and share your knowledge in markdown.">
+<meta name="keywords" content="Collaborative, Markdown, Notes">
+<!-- Open Graph data -->
+<meta property="og:title" content="HackMD - Collaborative Markdown Knowledge Base">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://hackmd.io">
+<meta property="og:description" content="Best way to write and share your knowledge in markdown.">
+<meta property="og:site_name" content="HackMD">
+<meta property="og:image" content="https://hackmd.io/favicon.png">
+<meta property="fb:app_id" content="1436904003272070">
+<!-- Twitter data -->
+<meta name="twitter:site" content="@hackmdio" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="HackMD - Collaborative Markdown Knowledge Base" />
+<meta name="twitter:description" content="Best way to write and share your knowledge in markdown." />
+<title>HackMD - Collaborative Markdown Knowledge Base</title>
+
+<meta name="csrf-token" content="iJvErdlY-fQH0Hw5nz-RvXGWdbvM-M3TcACU">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+<script nonce="36868383-b974-45ff-9ec3-4076cb595da0">
+window.domain = 'hackmd.io'
+window.urlpath = ''
+window.debug = false
+window.version = '1.3.0'
+window.brand = 'HackMD'
+
+window.GOOGLE_API_KEY = 'AIzaSyCjSrqWHhmWJnoI7JlD88XDSaBgiKbaenA'
+window.GOOGLE_CLIENT_ID = '911617723593-drikdibvvn63slfd6kbqigo8ql1no55s.apps.googleusercontent.com'
+window.DROPBOX_APP_KEY = 'rdoizrlnkuha23r'
+
+window.PLANTUML_SERVER = 'https://ptuml.hackmd.io'
+
+window.ASSET_URL = 'https://assets.hackmd.io'
+
+window.USER_CAN_CREATE_TEAM = true
+window.USER_CAN_DELETE_ACCOUNT = true
+window.USER_DELETE_ACCOUNT_VIA_EMAIL = true
+window.PAYMENT_ENABLED = true
+window.FREE_TEAM_NUM = 3
+window.FREE_TEAM_MEMBER_NUM = 3
+window.FREE_PUBLIC_TEAM_NUM = 10
+
+window.EE_SITE_ENABLE = false
+window.EE_SITE_NAME = 'false'
+window.EE_SITE_LINK = 'false'
+
+window.ALLOW_ANONYMOUS = true
+window.PUBLIC_OVERVIEW = false
+window.INTERNAL_PUBLIC_OVERVIEW = false
+
+
+window.SHOW_HOT_NOTES = false
+
+
+
+window.HOT_NOTES_TIME_TYPE = 'week'
+
+
+
+window.SHOW_OVERVIEW = false
+
+
+window.USE_CDN = false
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+
+
+<!-- Google Tag Manager -->
+<script nonce="36868383-b974-45ff-9ec3-4076cb595da0">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KLW9Z3');</script>
+<!-- End Google Tag Manager -->
+
+
+
+ <link href="https://assets.hackmd.io/build/font-vendor.b86e2bf451b246b1a88e.css" rel="stylesheet"><link href="https://assets.hackmd.io/build/common-vendor.b8ecfc406ac0b5f77a26.css" rel="stylesheet"><link href="https://assets.hackmd.io/build/cover-vendor.57f8768862d5f2e927af.css" rel="stylesheet"><link href="https://assets.hackmd.io/build/cover.9892fcace9244afcedb1.css" rel="stylesheet">
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" integrity="sha256-3Jy/GbSLrg0o9y5Z5n1uw0qxZECH7C6OQpVBgNFYa0g=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js" integrity="sha256-g6iAfvZp+nDQ2TdTR/VVKJf3bGro4ub5fvWSWVRi2NE=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.5.9/es5-shim.min.js" integrity="sha256-8E4Is26QH0bD52WoQpcB+R/tcWQtpzlCojrybUd7Mxo=" crossorigin="anonymous"></script>
+<![endif]-->
+
+
+</head>
+
+<body>
+    
+
+<header class="header-wrapper home-header-wrapper">
+    <div class="container-fluid header black home-header">
+        <div class="row">
+            <div class="col-xs-12">
+                <nav class="navbar">
+                    <div class="navbar-header">
+                        <button type="button" class="ui-navbar-toggle right navbar-toggle collapsed" data-toggle="sidenav" data-target="#header-navbar" aria-expanded="false">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <a class="navbar-brand btn btn-link " href="home"><i class="fa fa-file-text"></i>&nbsp;HackMD </a>
+                    </div>
+                    <div id="header-navbar" class="collapse navbar-collapse right">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="visible-xs" style="padding: 20px 30px 40px 30px;">
+                                <img src="images/home/group.svg" class="pull-right">
+                            </li>
+                            
+                                <li>
+                                    <a target="_blank" href="c/tutorials">Tutorials</i></a>
+                                </li>
+                                <li class="right-divider-not-xs">
+                                    <a href="https://hackmd.io/pricing">Pricing</i></a>
+                                </li>
+                                <li class="divider visible-xs" style="margin: 12px 0px; background-color: #4f4f4f;"></li>
+                            
+                            
+                                <li class="ui-home-recent">
+                                    <a href="recent">Recent</i></a>
+                                </li>
+                            
+                            
+                                <li class="ui-home-login">
+                                    <a href="login">Sign in</i></a>
+                                </li>
+                            
+                        </ul>
+                    </div> <!-- /.collapse.navbar-collapse -->
+                </nav>
+            </div> <!-- /.col-xs-12 -->
+        </div> <!-- /.row -->
+    </div> <!-- /.container-fluid -->
+</header>
+
+    <div id="site-content" class="site-wrapper pt-1/4" style="padding-top: 50px;">
+    <div id="home">
+        
+            <div class="container">
+    
+
+    
+</div>
+<div class="home-container container pt-3-xs pb-10-xs pt-9-md pb-16-md">
+    <div class="row mb-18">
+        <div class="col-xs-12">
+            
+                <h1 class="cover-heading ma-0">Get everyone on the same page with Markdown</h1>
+                <p class="lead ma-0" style="max-width: 680px; margin: auto; margin-bottom: 30px;">
+                    Real-time collaborate on 
+                    <span class="typewriter-container inline-flex justify-center en">
+                        <span class="typewriter-text text-1">project</span>
+                        <span class="typewriter-text text-2">team</span>
+                        <span class="typewriter-text text-3">technical</span>
+                        <span class="typewriter-text text-4">personal</span>
+                    </span>
+                     documentation in markdown. Capture fleeting ideas and formalize tribal knowledge.
+                </p>
+                
+                    <form action="join" class="input-group mt-3" method="get" style="display: flex; max-width: 680px; margin: auto;">
+                        <input type="email" name="email" class="form-control ui-home-email" placeholder="Enter your email">
+                        <div class="input-group-append">
+                            <button type="submit" class="btn btn-success btn-lg ui-home-join">Sign-up</button>
+                        </div>
+                    </form>
+                
+            
+        </div>
+    </div>
+</div>
+
+<div class="home-container bg-white">
+    <div id="carouselFirstIndicators" class="carousel slide row" data-ride="carousel">
+        <div class="col-xs-12 visible-xs">
+            <h1 class="section-title">
+                <div>Effective team collaboration</div>
+                <div>Flexible permissioning</div>
+            </h1>
+        </div>
+        <div class="col-xs-12 col-md-6 mb-3-xs mb-0-md">
+            <div class="carousel-inner pull-right" style="width: auto;">
+                <div class="item active">
+                    <img src="images/home/IndexPic_1-1.svg" class="d-block w-100" alt="Slide 1">
+                </div>
+                <div class="item">
+                    <img src="images/home/IndexPic_1-2.svg" class="d-block w-100" alt="Slide 2">
+                </div>
+                <div class="item">
+                    <img src="images/home/IndexPic_1-3.svg" class="d-block w-100" alt="Slide 3">
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-md-6 text-left">
+            <h1 class="section-title hidden-xs">
+                <div>Effective team collaboration</div>
+                <div>Flexible permissioning</div>
+            </h1>
+            <div class="carousel-indicators">
+                <div class="carousel-item active" data-target="#carouselFirstIndicators" data-slide-to="0">
+                    <img src="images/home/index-team-value-01.svg" class="icon">
+                    <div>
+                        <div class="title">Transcend beyond space and time</div>
+                        <div class="content">Blazing fast real-time collaboration breaks the space between members. Change notification keeps everyone posted.</div>
+                    </div>
+                </div>
+                <div class="carousel-item" data-target="#carouselFirstIndicators" data-slide-to="1">
+                    <img src="images/home/index-team-value-02.svg" class="icon">
+                    <div>
+                        <div class="title">Sharing is caring</div>
+                        <div class="content">Team workspace for bird’s-eye view over all team documents. Shared templates keep format and styling consistent.</div>
+                    </div>
+                </div>
+                <div class="carousel-item" data-target="#carouselFirstIndicators" data-slide-to="2">
+                    <img src="images/home/index-team-value-03.svg" class="icon">
+                    <div>
+                        <div class="title">Keep your secret (while sharing it)</div>
+                        <div class="content">Granular note permission settings and private image storage give you full control over how and with whom you share.</div>
+                    </div>
+                </div>
+            </div>
+         </div>
+    </div>
+    
+        
+            <div class="row pt-2">
+                <div class="col-xs-12 text-right button-container">
+                    <a href="join/index.html?create-team=true" class="ui-home-create-team btn btn-lg btn-primary" style="min-width: 145px;">Create a free team</a>
+                </div>
+            </div>
+        
+    
+</div>
+
+<div class="home-container bg-white pt-0">
+    <div id="carouselSecondIndicators" class="carousel reverse slide row" data-ride="carousel">
+        <div class="col-xs-12 visible-xs">
+            <h1 class="section-title">
+                <div>Your own tools</div>
+                <div>Own your contents</div>
+            </h1>
+        </div>
+        <div class="col-xs-12 col-md-6">
+            <div class="carousel-inner pull-right" style="width: auto;">
+                <div class="item active">
+                    <img src="images/home/IndexPic_2-1.svg" class="d-block w-100" alt="Slide 1">
+                </div>
+                <div class="item">
+                    <img src="images/home/IndexPic_2-3.svg" class="d-block w-100" alt="Slide 2">
+                </div>
+                <div class="item">
+                    <img src="images/home/IndexPic_2-2.svg" class="d-block w-100" alt="Slide 3">
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-md-6 text-left">
+            <h1 class="section-title hidden-xs">
+                <div>Your own tools</div>
+                <div>Own your contents</div>
+            </h1>
+            <div class="carousel-indicators">
+                <div class="carousel-item active" data-target="#carouselSecondIndicators" data-slide-to="0">
+                    <img src="images/home/index-value-01.svg" class="icon">
+                    <div>
+                        <div class="title">Markdown for everything</div>
+                        <div class="content">Technical document, UML chart, math formula, data visualization, even slide deck – All portable.</div>
+                    </div>
+                </div>
+                <div class="carousel-item" data-target="#carouselSecondIndicators" data-slide-to="1">
+                    <img src="images/home/index-value-02.svg" class="icon">
+                    <div>
+                        <div class="title">Document with Git the way you code</div>
+                        <div class="content">Manage documentation with the Git workflow, decentralize the editing and storage, centralize the final documents.</div>
+                    </div>
+                </div>
+                <div class="carousel-item" data-target="#carouselSecondIndicators" data-slide-to="2">
+                    <img src="images/home/index-value-03.svg" class="icon">
+                    <div>
+                        <div class="title">Your tools should work for you</div>
+                        <div class="content">Access your notes with hotkey-invoked browser extension. One-click export notes to use HackMD in VSCode.</div>
+                    </div>
+                </div>
+            </div>
+         </div>
+    </div>
+    
+        <div class="row pt-0-xs pt-3/2-md">
+            <div class="col-xs-12 text-left button-container">
+                <form action="https://hackmd.io/template/template-Try-it?redirect=true" method="POST">
+                    <div class="dn"><input type="hidden" name="_csrf" value="iJvErdlY-fQH0Hw5nz-RvXGWdbvM-M3TcACU"></div>
+                    <button type="submit" class="ui-new-note ui-new-note-features btn btn-lg btn-primary" style="min-width: 110px;">Use for free</button>
+                </form>
+            </div>
+        </div>
+    
+</div>
+
+<div class="home-container">
+    <div class="row">
+        <div class="col-xs-12">
+            <h2 class="home-heading" style="margin-bottom: 15px;">Features</h2>
+            <div style="margin-bottom: 25px; font-size: 20px;">Boost productivity your way</div>
+        </div>
+    </div>
+    <div class="row flex flex-wrap ph-0-md mh-0-md">
+        <div class="col-xs-12"></div> <!-- hack for safari -->
+        <div class="col-xs-12 col-md-4 ph-3/2 feature-card mb-3">
+            <div class="content">
+                <img src="images/home/feature-01.svg" class="icon">
+                <p class="title mb-3/2 mt-2"><strong>VSCode Extension</strong></p>
+                <div class="subtitle">Write and see all HackMD supported markdown syntax right in VSCode.</div>
+                <div class="feature-button-container">
+                    <a class="learn-more" target="_blank" href="https://marketplace.visualstudio.com/items?itemName=HackMD.vscode-hackmd">Install now<i class='fa fa-angle-right' aria-hidden='true'></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-md-4 ph-3/2 feature-card mb-3">
+            <div class="content">
+                <img src="images/home/feature-02.svg" class="icon">
+                <p class="title mb-3/2 mt-2"><strong>GitHub Integration</strong></p>
+                <div class="subtitle">Version controlling your documents with your favorite GitHub workflow.</div>
+                <div class="feature-button-container">
+                    <a class="learn-more" target="_blank" href="c/tutorials/%252Fs%252Flink-with-github">Learn more<i class='fa fa-angle-right' aria-hidden='true'></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-md-4 ph-3/2 feature-card mb-3">
+            <div class="content">
+                <img src="images/home/feature-03.svg" class="icon">
+                <p class="title mb-3/2 mt-2"><strong>Browser Extension</strong></p>
+                <div class="subtitle">Capture your thoughts and stay in the flow with hotkey-invoked browser extension.</div>
+                <div class="feature-button-container">
+                    <a class="learn-more" target="_blank" href="c/tutorials/%252Fs%252Fhackmd-it">Install now<i class='fa fa-angle-right' aria-hidden='true'></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-md-4 ph-3/2 feature-card mb-3">
+            <div class="content">
+                <img src="images/home/feature-04.svg" class="icon">
+                <p class="title mb-3/2 mt-2"><strong>MathJax and UML </strong></p>
+                <div class="subtitle">Draw UML diagrams in SVG and write scientific formula with plain text in one tool.</div>
+                <div class="feature-button-container">
+                    <a class="learn-more" target="_blank" href="c/tutorials/%252Fs%252FMathJax-and-UML">Learn more<i class='fa fa-angle-right' aria-hidden='true'></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-md-4 ph-3/2 feature-card mb-3">
+            <div class="content">
+                <img src="images/home/feature-05.svg" class="icon">
+                <p class="title mb-3/2 mt-2"><strong>Slide Mode</strong></p>
+                <div class="subtitle">Turn your note to slide deck and own the stage in a minute.</div>
+                <div class="feature-button-container">
+                    <a class="learn-more" target="_blank" href="c/tutorials/%252Fs%252Fhow-to-create-slide-deck">Learn more<i class='fa fa-angle-right' aria-hidden='true'></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-md-4 ph-3/2 feature-card mb-3">
+            <div class="content">
+                <img src="images/home/feature-06.svg" class="icon">
+                <p class="title mb-3/2 mt-2"><strong>Book Mode</strong></p>
+                <div class="subtitle">Create a collection of related documents, organize under chapters, and share at once.</div>
+                <div class="feature-button-container">
+                    <a class="learn-more" target="_blank" href="c/tutorials/%252Fs%252Fhow-to-create-book">Learn more<i class='fa fa-angle-right' aria-hidden='true'></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a class="btn btn-default btn-lg btn-outline" target="_blank" href="c/tutorials/%252Fs%252Ftutorials">More features</a>
+</div>
+
+
+    <div class="home-container pt-0">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2 class="home-heading">Become highly collaborative like these teams</h2>
+            </div>
+        </div>
+        <div class="row trusted-by-customer-block">
+            <a class="customer-card"><img src="images/home/logo-ethereum.svg" alt="ethereum"></a>
+            <a class="customer-card"><img src="images/home/logo-g-0-v.svg" alt="g0v"></a>
+            <a class="customer-card"><img src="images/home/logo-procore.svg" alt="procore"></a>
+            <a class="customer-card"><img src="images/home/logo-rayark.svg" alt="rayark"></a>
+            <a class="customer-card"><img src="images/home/logo-crowd-works.png" alt="crowd-works"></a>
+        </div>
+    </div>
+
+
+
+    <div class="home-container bg-white">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2 class="home-heading">There is a HackMD plan for you</h2>
+            </div>
+            <div class="col-xs-12">
+                <div class="plans flex flex-column flex-row-sm items-stretch justify-between text-left">
+                    
+                        <a class="plan order-0-sm order-0 mb-3" href="https://hackmd.io/pricing">
+                            <div class="ribbon text-uppercase">Hot</div>
+                            <div class="title">
+                                <img src="images/home/team-plan.svg" alt="team-plan">
+                                <h2>Team Plan</h2>
+                            </div>
+                            <p>
+                                Boost collaboration for small and mid-sized teams.
+                            </p>
+
+                            <ul class="pl-0 list-checks mh-1/4">
+                                <li class="flex">Shared workspace for visibility</li>
+                                <li class="flex">Unlimited team members</li>
+                                <li class="flex">Private image storage</li>
+                            </ul>
+                        </a>
+                    
+                    <a class="plan order-1-sm order-1 mb-3" href="https://hackmd.io/pricing">
+                        <div class="title">
+                            <img src="images/home/ee-plan.svg" alt="ee-plan">
+                            <h2>Business Plan</h2>
+                        </div>
+                        <p>
+                            Advanced authentication and granular access control for businesses.
+                        </p>
+
+                        <ul class="pl-0 list-checks mh-1/4">
+                            <li class="flex">SaaS or on-premise both available</li>
+                            <li class="flex">SSO or customized authentication</li>
+                            <li class="flex">Role-Based Access Control</li>
+                            <li class="flex">Shared workspace for visibility</li>
+                            <li class="flex">Unlimited team spaces</li>
+                            <li class="flex">Unlimited team members</li>
+                            <li class="flex">Private image storage</li>
+                        </ul>
+                    </a>
+                </div>
+            </div>
+            <a class="btn btn-primary btn-lg btn-outline" href="https://hackmd.io/pricing">Read more</a>
+        </div>
+    </div>
+
+
+
+    <div class="home-container container pv-10-md">
+        <div class="row">
+            <div class="col-xs-12">
+                <p class="h3 mt-0 mb-3" style="font-size: 30px;">
+                    Join 286,000+ active users! Come and love it ❤️️
+                </p>
+                <form action="join" class="input-group" method="get" style="display: flex; max-width: 680px; margin: auto;">
+                    <input type="email" name="email" class="form-control ui-home-email" placeholder="Enter your email">
+                    <div class="input-group-append">
+                        <button type="submit" class="btn btn-success btn-lg ui-home-join">Sign-up</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+        
+    </div>
+</div>
+
+<!-- delete modal -->
+<div class="modal fade delete-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">Are you sure?</h4>
+            </div>
+            <div class="modal-body" style="color:black;">
+                <h5 class="ui-delete-modal-msg"></h5>
+                <strong class="ui-delete-modal-item"></strong>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-danger ui-delete-modal-confirm">Yes, do it!</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- template notes modal -->
+<div class="modal fade template-modal" id="templateModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true"  >
+    <div class="modal-dialog modal-lg" style="width: calc(100vw - 20px); max-width: 1000px;">
+        <div class="modal-content template-content">
+            <div class="modal-header">
+                <button type="button" class="close ui-template-cancel visible-xs hidden-xs" style="margin-top: 2px !important; font-size: 15px !important; display: none;"><span aria-hidden="true">Cancel</span></button>
+                <button type="button" class="close ui-template-close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fa fa-times fa-18"></i></span></button>
+                <h4 class="modal-title ui-template-title" id="mySmallModalLabel"><i class="fa fa-file-image-o"></i> <span>Create a note from template</span></h4>
+                <h4 class="modal-title visible-xs hidden-xs ui-template-title-xs"><i class="fa fa-file-image-o"></i> <span>Create a note from template</span></h4>
+            </div>
+            <div class="modal-body" style="padding: 0px;">
+                <div class="row">
+                    <div class="col-sm-8 template-preview-container hidden-xs">
+                        <div>
+                            <div class="ui-template-spinner unselectable hidden-print"></div>
+                            <iframe class="template-viewer" style="width: 100%; height: 100%; border: none;"></iframe>
+                            <div class="template-empty ui-template-viewer-empty" style="display: none; margin: 0px;">
+                                <img src="not-available.svg">
+                                <div>
+                                    <div>Oops...</div>
+                                    <div>This template has been removed or transferred.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <button type="button" class="visible-xs btn btn-primary ui-use-template-btn-mobile">Use this template</button>
+                    </div>
+                    <div class="col-sm-4 template-list-container">
+                        <div class="ui-templates-container">
+                            
+                                
+                                    <button type="button" class="btn btn-success" style="margin: 20px; margin-bottom: 10px; height: 40px; font-size: 16px;"
+                                    data-toggle="modal" data-target=".signin-modal">Sign in</button>
+                                
+                            
+                            <div class="dropdown ui-template-list-filter" style="margin: 20px;">
+                                <a class="ui-template-list-filter-label" id="template-list-filter" data-filter-type="all" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>All</span><i class="fa fa-angle-down" aria-hidden="true" style="margin-left: 10px;"></i></a>
+                                <ul class="dropdown-menu" role="menu" aria-labelledby="template-list-filter" style="right: 0px; left: auto;">
+                                    <li role="presentation"><a role="menuitem" class="ui-template-filter-all" tabindex="-1" href="home#">All</a></li>
+                                    
+                                    <li role="presentation"><a role="menuitem" class="ui-template-filter-team" tabindex="-1" href="home#">Team</a></li>
+                                    
+                                </ul>
+                            </div>
+                            <div class="template-empty ui-template-list-empty">
+                                <i class="fa fa-file-image-o" aria-hidden="true"></i>
+                                <div>No template.</div>
+                            </div>
+                            <div class="list-group ui-template-list" style="flex:1;">
+                            </div>
+                            <button type="button" class="btn btn-primary ui-use-template-btn hidden-xs">Use this template</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- create template modal -->
+<div class="modal fade create-template-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"  >
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content template-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin-top: 2px; height: 17px;"><span aria-hidden="true"><i class="fa fa-times fa-18"></i></span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">Create a template</h4>
+            </div>
+            <div class="modal-body text-center" style="color:black; padding: 20px; padding-bottom: 10px; text-align: left;">
+                <label for="templateName" style="font-size:18px; font-weight: normal;">Template name</label>
+                <input type="text" id="templateName" class="form-control" placeholder="Template name" aria-label="TemplateName" aria-describedby="template-name" maxlength="250">
+            </div>
+            <div class="modal-footer" style="border: none; padding: 20px;">
+                <button type="button" class="btn btn-primary ui-create-template-modal-confirm" style="min-width:54px;">OK</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- delete template modal -->
+<div class="modal fade delete-template-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content template-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin-top: 2px; height: 17px;"><span aria-hidden="true"><i class="fa fa-times fa-18"></i></span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">Delete template</h4>
+            </div>
+            <div class="modal-body text-center" style="color:black; padding: 14.5px 15px; padding-bottom: 0px; text-align: left;">
+                <p class="ui-delete-modal-msg" style="font-size: 15px;">Do you really want to delete this template?</p>
+                <div class="form-check" style="display: flex;">
+                    <input type="checkbox" class="form-check-input ui-delete-note-check" style="margin-top: 7px;" id="deleteNoteCheck">
+                    <label class="form-check-label" style="margin-top: 3px; margin-left: 5px; font-weight: 400;" for="deleteNoteCheck">
+                        Keep the content
+                        <div style="font-size: 13px; margin-top: 5px; color: #818181; line-height: 18px;">Turn this template into a regular note and keep its content, versions, and comments.</div>
+                    </label>
+                </div>
+            </div>
+            <div class="modal-footer" style="border: none; padding: 20px 15px; display: flex;">
+                <button type="button" class="btn btn-default" data-dismiss="modal" style="flex:1;">Cancel</button>
+                <button type="button" class="btn btn-danger ui-delete-template-modal-confirm" style="flex:1;">Yes</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- signin modal -->
+<div class="modal fade signin-modal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin-top: 10px; right: 20px; position: absolute;"><span aria-hidden="true">&times;</span></button>
+            
+
+
+
+
+
+
+    
+
+
+
+
+
+
+<h3>Sign in</h3>
+
+<form data-toggle="validator" role="form" class="form-horizontal" method="post" enctype="application/x-www-form-urlencoded">
+    <div class="dn"><input type="hidden" name="_csrf" value="iJvErdlY-fQH0Hw5nz-RvXGWdbvM-M3TcACU"></div>
+    <div class="dn"><input type="hidden" name="create_team" value="false"></div>
+    <div class="dn"><input type="hidden" name="create_paid_team" value="false"></div>
+    <div class="form-group  ">
+        <label for="email" class="control-label">Email</label>
+        <label for="inputEmail" class="control-label pull-right errors">
+            
+        </label>
+        <span class="help-block control-label with-errors pull-right" style="display: inline;"></span>
+        <div class="input-block">
+            
+                <input type="email" class="form-control" name="email" placeholder="Your email" required autocomplete="email">
+            
+            <span class="error-sign"></span>
+        </div>
+    </div>
+    <div class="form-group ">
+        <label for="password" class="control-label">Password</label>
+        <label for="inputPassword" class="control-label pull-right errors">
+            
+        </label>
+        <span class="help-block control-label with-errors pull-right" style="display: inline;"></span>
+        <div class="input-block">
+            <input type="password" class="form-control" name="password" placeholder="Your password" required autocomplete="current-password">
+            <span class="error-sign"></span>
+            
+                <span class="control-label pull-right" style="font-size: 13px; margin-top: 5px;"><a href="settings/forgotPassword" style="text-decoration: underline;">Forgot password</a></span>
+            
+        </div>
+    </div>
+
+    <div style="text-align: center; padding-top: 15px; margin-bottom: 0px;">
+        
+            <input type="submit" class="btn btn-success btn-large" formaction="https://hackmd.io/login" value="Sign in">
+        
+
+        
+    </div>
+</form>
+
+
+
+
+
+
+
+
+    
+        <p class="seperator">or</p>
+    
+
+    
+        <p>By clicking below, you agree to our <a href="s/terms" target="_blank">terms of service</a>.</p>
+    
+
+    <div class="social-buttons-container">
+    
+    <a href="auth/facebook" class="btn btn-lg btn-block btn-social btn-facebook">
+        <i class="fa fa-facebook"></i> Sign in via Facebook
+    </a>
+    
+    
+    <a href="auth/twitter" class="btn btn-lg btn-block btn-social btn-twitter">
+        <i class="fa fa-twitter"></i> Sign in via Twitter
+    </a>
+    
+    
+    <a href="auth/github" class="btn btn-lg btn-block btn-social btn-github">
+        <i class="fa fa-github"></i> Sign in via GitHub
+    </a>
+    
+    
+    <a href="auth/dropbox" class="btn btn-lg btn-block btn-social btn-dropbox">
+        <i class="fa fa-dropbox"></i> Sign in via Dropbox
+    </a>
+    
+    
+    <a href="auth/google" class="btn btn-lg btn-block btn-social btn-google">
+        <i class="icon icon-google"></i> Sign in via Google
+    </a>
+    
+    
+</div>
+
+
+
+
+
+    <div >
+        <p>New to HackMD? <a href="join">Sign up</a></p>
+    </div>
+
+
+        </div>
+    </div>
+</div>
+
+<!-- feedback modal -->
+<div class="modal fade feedback-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class='modal-dialog modal-lg' role='document'>
+    <div class='modal-content'>
+      <div class='modal-header' style="padding: 8px 15px; font-weight: 700">
+        <button type='button' class='close' aria-label='Close' style="font-size: 26px; margin-top: -1px;" data-dismiss="modal">
+          <span aria-hidden='true'>&times;</span>
+        </button>
+        <h4 class='modal-title'>Feedback</h4>
+      </div>
+      <div class='modal-body' style="text-align: left;">
+        <div class='alert alert-danger' style="display: none;">
+          <i class='fa fa-exclamation-triangle' aria-hidden='true' style="margin-right: 5px"></i>
+          Submission failed, please try again
+        </div>
+        <h3 style="margin-top:5px">Thanks for your support.</h3>
+        <p>On a scale of 0-10, how likely is it that you would recommend HackMD to your friends, family or business associates?</p>
+        <div class="rating-group" style="margin-top: 15px; margin-bottom: 30px;"></div>
+        <p style="font-size:16px">Please give us some advice and help us improve HackMD.</p>
+        <form role='form' data-toggle='validator'>
+          <div class='form-group' style="margin-bottom: 10px;">
+            <textarea name='feedback' class='form-control' placeholder="Enter your feedback" rows="3" style="resize: none;" required></textarea>
+          </div>
+          <div class='checkbox' style="font-size:16px">
+            <label>
+              <input name='engage' type='checkbox' checked />
+              I’m willing to participate in user experience research or beta testing so HackMD could build things I want.
+            </label>
+          </div>
+          <div class='form-group flex items-center' style="font-size: 16px; padding-left: 20px;">
+            <label style="font-weight: normal;">My Email:</label>
+            &nbsp;
+            <div class='flex-auto pr-0'>
+              <input type='email' name='email' class='form-control col-sm-9' aria-describedby='helpId' placeholder="Email address" required />
+            </div>
+          </div>
+          <div class='modal-footer' style="padding: 15px 0; border: none;">
+            <button type='button' class='btn btn-default' data-dismiss="modal">Cancel</button>
+            <button type='submit' class='btn btn-primary ui-feedback-submit'>Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- feedback success modal -->
+<div class="modal fade feedback-success-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class='modal-dialog modal-sm' role='document'>
+    <div class='modal-content'>
+      <div class='modal-body' style="padding: 50px 20px; text-align: center;">
+        <img src="images/feedback.svg" width="85" height="95" />
+        <h4>Thanks for your feedback</h4>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- message modal -->
+<div class="modal fade message-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+          <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+              </button>
+              <h4 class="modal-title" id="myModalLabel"></h4>
+          </div>
+          <div class="modal-body" style="color:black;">
+              <h5 style="font-weight: 500; font-size: 14px; text-align: left;"></h5>
+              <a target="_blank" style="word-break: break-all;" rel="noopener"></a>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">OK</button>
+          </div>
+      </div>
+  </div>
+</div>
+<!-- create team modal -->
+<div class="modal fade create-team-modal" id="createTeamModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header" style="background-color: #f8f8f8; border-top-left-radius: 5px;
+            border-top-right-radius: 4px;">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                </button>
+
+                <h4 class="modal-title" id="myModalLabel">
+                    Create team
+                </h4>
+            </div>
+            <div class="modal-body">
+                <div class="alert alert-danger text-left" style="display: none;">
+                    <i class="fa fa-fw fa-exclamation-triangle" aria-hidden="true"></i>
+                    <span class="team-create-error"></span>
+                </div>
+
+                <form data-toggle="validator">
+                    <div class="form-group flex items-center">
+                        <label class="flex-one text-left" for="team-name">Team Name</label>
+                        <input type="text" class="form-control flex-two" name="name" id="team-name" placeholder="settings.team-name-placeholder" data-minlength="1" maxlength="80" required>
+                    </div>
+
+                    <div class="form-group flex items-center">
+                        <label class="flex-one text-left" for="team-description">Team Description</label>
+                        <input type="text" class="form-control flex-two" name="description" id="team-description" placeholder="Your team description" maxlength="100">
+                    </div>
+
+                    <div class="form-group flex items-center">
+                        <label class="flex-one text-left" for="team-path">Team URL Path</label>
+                        <div class="flex flex-column flex-two">
+                            <div class="flex items-center">
+                                <span class="mr-1">https://hackmd.io/team/</span>
+                                <input type="text" class="form-control" name="path" id="team-path" placeholder="Your team URL path" pattern="^(?!-)[a-zA-Z0-9-]+$" data-minlength="1" maxlength="39" required>
+                            </div>
+                            <small style="text-align: right; color: #888888;">Allow a-Z, 0-9 and dash not at beginning.</small>
+                        </div>
+                    </div>
+
+                    <div class="modal-footer pa-0" style="border: none;">
+                        <button type="button" data-dismiss="modal" class="btn btn-default" >Cancel</button>
+                        <button type="submit" class="btn btn-primary">Create team</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+    
+    <footer class="bg-gray-darkest text-left pv-4">
+    <div class="container-thin">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="row mb-1">
+                    <div class="col-xs-12 col-sm-6 col-md-3 ph-2 mb-3 mb-0-md">
+                        <h4 class="mt-0 pb-1/4">Tutorial</h4>
+
+                        <ul class="list-unstyled">
+                            <li class="pv-1/4">
+                                <a href="c/tutorials/%252Fs%252Ffeatures" class="text-gray-lighter">
+                                    Features
+                                </a>
+                            </li>
+                            <li class="pv-1/4">
+                                <a href="c/tutorials" class="text-gray-lighter">
+                                    Tutorials book
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 ph-2 mb-3 mb-0-md">
+                        <h4 class="mt-0 pb-1/4">Resources</h4>
+
+                        <ul class="list-unstyled">
+                            <li class="pv-1/4">
+                                <a href="https://hackmd.io/pricing" class="text-gray-lighter">
+                                    Pricing
+                                </a>
+                            </li>
+                            <li class="pv-1/4">
+                                <a href="s/release-notes" class="text-gray-lighter">
+                                    Releases
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 ph-2 mb-3 mb-0-md">
+                        <h4 class="mt-0 pb-1/4">Policy</h4>
+
+                        <ul class="list-unstyled">
+                            <li class="pv-1/4">
+                                <a href="s/terms" target="_blank" class="text-gray-lighter">
+                                    Terms
+                                </a>
+                            </li>
+                            <li class="pv-1/4">
+                                <a href="s/privacy" target="_blank" class="text-gray-lighter">
+                                    Privacy
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 ph-2 mb-3 mb-0-md">
+                        <h4 class="mt-0 pb-1/4">Contact us</h4>
+
+                        <ul class="list-unstyled">
+                            <li class="pv-1/4">
+                                <a href="mailto:support@hackmd.io" class="text-gray-lighter">
+                                    <i class="fa fa-fw fa-envelope"></i> support@hackmd.io
+                                </a>
+                            </li>
+                            <li class="pv-1/4">
+                                <a href="https://facebook.com/hackmdio" class="text-gray-lighter" target="_blank">
+                                    <i class="fa fa-fw fa-facebook-square"></i> HackMD
+                                </a>
+                            </li>
+                            <li class="pv-1/4">
+                                <a href="https://twitter.com/hackmdio" class="text-gray-lighter" target="_blank">
+                                    <i class="fa fa-fw fa-twitter"></i> @hackmdio
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- /.row -->
+
+        <hr class="w-100" style="border-color: #6D6D6D;">
+
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 flex items-center">
+                <span class="ui-brand pr-1">
+                    &copy; 2020 HackMD. All Rights Reserved.
+                </span>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 flex justify-start-xs justify-end-sm flex-row-sm flex-column-xs items-start-xs items-center-sm">
+                <form action="https://www.paypal.com/cgi-bin/webscr" target="_blank" class="pr-1/4 dib mt-2-xs mb-1-xs db-xs">
+                    <input type="hidden" name="cmd" value="_donations" />
+                    <input type="hidden" name="business" value="KDGS4PREHX6QQ" />
+                    <input type="hidden" name="lc" value="US" />
+                    <input type="hidden" name="item_name" value="HackMD" />
+                    <input type="hidden" name="currency_code" value="USD" />
+                    <input type="hidden" name="bn" value="PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHosted" />
+                    <button type="submit" class="btn-link ph-0 text-uppercase"><i class="fa fa-coffee"></i> Buy us coffee</button>
+                    &ensp;<span class="text-gray">$</span> <input class="w-4" type="number" name="amount" min="1" value="5" />
+                </form>
+
+                <select title="Language" class="ui-locale">
+                    <option value="en">English</option>
+                    <option value="zh">中文</option>
+                    <option value="fr">Français</option>
+                    <option value="de">Deutsch</option>
+                    <option value="ja">日本語</option>
+                    <option value="es">Español</option>
+                    <option value="ca">Català</option>
+                    <option value="el">Ελληνικά</option>
+                    <option value="pt">Português</option>
+                    <option value="it">italiano</option>
+                    <option value="tr">Türkçe</option>
+                    <option value="ru">Русский</option>
+                    <option value="nl">Nederlands</option>
+                    <option value="hr">hrvatski jezik</option>
+                    <option value="pl">język polski</option>
+                    <option value="uk">Українська</option>
+                    <option value="hi">हिन्दी</option>
+                    <option value="sv">svenska</option>
+                    <option value="eo">Esperanto</option>
+                    <option value="da">dansk</option>
+                </select>
+            </div>
+        </div>  <!-- /.row -->
+    </div> <!-- /.container-thin -->
+</footer>
+
+
+
+    <script nonce="36868383-b974-45ff-9ec3-4076cb595da0">
+var announcement = document.getElementsByClassName('announcement');
+if (announcement.length > 0 && (announcement = announcement[0])) {
+    var name = announcement.getAttribute('name');
+    var readName = (document.cookie.match('(^|; )announcement=([^;]*)')||0)[2];
+    if (name !== readName) {
+        announcement.style.display = 'block';
+        var paddingTop = announcement.offsetHeight > 40 ? announcement.offsetHeight : 40;
+        var container = document.getElementsByClassName('site-wrapper');
+        if (container.length > 0 && (container = container[0])) {
+            container.style.paddingTop = paddingTop + 'px';
+        }
+    }
+}
+</script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-60728495-1"></script>
+<script nonce="36868383-b974-45ff-9ec3-4076cb595da0">
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    let userid = (document.cookie.match('(^|; )userid=([^;]*)')||0)[2];
+    gtag('config', 'UA-60728495-1', {'user_id': userid});
+</script>
+<script src="https://browser.sentry-cdn.com/5.15.5/bundle.min.js" crossorigin="anonymous"></script>
+<script nonce="36868383-b974-45ff-9ec3-4076cb595da0">Sentry.init({ dsn: 'https://73410f1915d84abc8b2dd1f1aabd1c82@sentry.hackmd.dev/4', environment: 'production', integrations: function (intrus) { return intrus.filter(function (itr) { return itr.name !== 'TryCatch' }) } });</script>
+
+
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KLW9Z3"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<script src="api/i18n.js"></script>
+
+ <script src="https://assets.hackmd.io/build/font-vendor.3c28db3001b8bd6f1d3f.js" defer="defer"></script><script src="https://assets.hackmd.io/build/common-vendor.d485f77e88ea7ed44236.js" defer="defer"></script><script src="https://assets.hackmd.io/build/cover-vendor.974c7dc249c05bf16b10.js" defer="defer"></script><script src="https://assets.hackmd.io/build/cover-common.9004644a152e6776658a.js" defer="defer"></script><script src="https://assets.hackmd.io/build/cover.2b072094ff5d7594f513.js" defer="defer"></script>
+
+
+</body>
+
+</html>

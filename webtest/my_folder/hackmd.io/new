@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<script nonce="24b5f556-6f4f-4a16-9868-5126ea65e0db">
+var xhr = new XMLHttpRequest();
+xhr.open('POST', 'https://hackmd.io/new?title=&amp;alias=false&amp;sync=&amp;type=', true);
+xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+xhr.onreadystatechange = function () {
+  if (xhr.readyState === XMLHttpRequest.DONE) {
+    if (xhr.status === 0 || (xhr.status >= 200 && xhr.status < 400)) {
+      window.location.replace(xhr.responseURL); // avoid adding to browser history
+    } else {
+      console.error(xhr);
+    }
+  }
+}
+xhr.send('_csrf=v2MD1RIJ-6XYW7N7CF2TXeCT-0KoNuJsxI8I');
+</script>
+<noscript>
+Please enable javascript to submit the request.
+</noscript>

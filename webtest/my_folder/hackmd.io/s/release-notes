@@ -1,0 +1,2545 @@
+<!DOCTYPE html>
+<html lang="dev">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="csrf-token" content="h8xMyWsn-jkdZpHzyq_0vQ1M7bhXIg39yxKY">
+    
+    
+    <meta name="description" content="Release Notes ===  &lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.19.0 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2020-08-18 17:0">
+    
+    <title>Release Notes - HackMD</title>
+    <link rel="icon" type="image/png" href="../favicon.png">
+	<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+    
+<script nonce="5a2d1df9-f348-452a-8d09-f8378cd2a212">
+window.domain = 'hackmd.io'
+window.urlpath = ''
+window.debug = false
+window.version = '1.3.0'
+window.brand = 'HackMD'
+
+window.GOOGLE_API_KEY = 'AIzaSyCjSrqWHhmWJnoI7JlD88XDSaBgiKbaenA'
+window.GOOGLE_CLIENT_ID = '911617723593-drikdibvvn63slfd6kbqigo8ql1no55s.apps.googleusercontent.com'
+window.DROPBOX_APP_KEY = 'rdoizrlnkuha23r'
+
+window.PLANTUML_SERVER = 'https://ptuml.hackmd.io'
+
+window.ASSET_URL = 'https://assets.hackmd.io'
+
+window.USER_CAN_CREATE_TEAM = true
+window.USER_CAN_DELETE_ACCOUNT = true
+window.USER_DELETE_ACCOUNT_VIA_EMAIL = true
+window.PAYMENT_ENABLED = true
+window.FREE_TEAM_NUM = 3
+window.FREE_TEAM_MEMBER_NUM = 3
+window.FREE_PUBLIC_TEAM_NUM = 10
+
+window.EE_SITE_ENABLE = false
+window.EE_SITE_NAME = 'false'
+window.EE_SITE_LINK = 'false'
+
+window.ALLOW_ANONYMOUS = true
+window.PUBLIC_OVERVIEW = false
+window.INTERNAL_PUBLIC_OVERVIEW = false
+
+
+window.SHOW_HOT_NOTES = false
+
+
+
+window.HOT_NOTES_TIME_TYPE = 'week'
+
+
+
+window.SHOW_OVERVIEW = false
+
+
+window.USE_CDN = false
+
+
+window.MENTIONS = {}
+
+
+
+window.MENTION_ANCHORS = null
+
+
+
+window.COMMENT_ANCHORS = [["720c1368-7741-4b7e-a839-720e93f0995e",326,0,1573669129347,1573669129347],["f4bf83e8-095c-4ef8-a255-5e50d850254c",561,99,1591841781841,1591841781841],["7cb64b9a-71ab-473f-809b-ccb31b208f7c",561,99,1593788420041,1593788420041],["e1706d21-b52b-450f-b543-0121b52986f5",4313,103,1594063094655,1594063094655],["8778ccf5-27f0-45ff-b4f9-53e3cfb915e6",209,41,1597039922526,1597039922526],["c32dbda9-b180-4734-82df-a3a4e7985343",561,99,1599092025463,1599092025463]]
+
+
+
+window.IS_OWNER = false
+
+
+
+window.IS_TEAM_ADMIN = false
+
+
+
+window.IS_INVITEE_ADMIN = false
+
+
+
+window.USER_PROFILE = {"name":"Guest Rodriquez"}
+
+
+
+window.VERSION_TIME = '1597743655000'
+
+
+
+window.canEdit = false
+
+
+
+window.canWriteComment = true
+
+
+</script>
+
+
+    
+<!-- Google Tag Manager -->
+<script nonce="5a2d1df9-f348-452a-8d09-f8378cd2a212">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KLW9Z3');</script>
+<!-- End Google Tag Manager -->
+
+
+    <meta property="fb:app_id" content="1436904003272070">
+
+<meta name="twitter:site" content="@hackmdio" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Release Notes - HackMD" />
+
+<meta name="twitter:description" content="Release Notes ===  &lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.19.0 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2020-08-18 17:0" />
+
+
+<meta property="og:site_name" content="HackMD" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Release Notes - HackMD" />
+
+<meta property="og:description" content="Release Notes ===  &lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.19.0 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2020-08-18 17:0" />
+
+
+	
+    <link rel="stylesheet" href='https://assets.hackmd.io/build/emojify.js/dist/css/basic/emojify.min.css'>
+     <link href="https://assets.hackmd.io/build/font-vendor.b86e2bf451b246b1a88e.css" rel="stylesheet"><link href="https://assets.hackmd.io/build/common-vendor.b8ecfc406ac0b5f77a26.css" rel="stylesheet"><link href="https://assets.hackmd.io/build/pretty-vendor.83ac49e057c3eac4fce3.css" rel="stylesheet"><link href="https://assets.hackmd.io/build/pretty.0ae3265014f89d9850bf.css" rel="stylesheet">
+	
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" integrity="sha256-3Jy/GbSLrg0o9y5Z5n1uw0qxZECH7C6OQpVBgNFYa0g=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js" integrity="sha256-g6iAfvZp+nDQ2TdTR/VVKJf3bGro4ub5fvWSWVRi2NE=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.5.9/es5-shim.min.js" integrity="sha256-8E4Is26QH0bD52WoQpcB+R/tcWQtpzlCojrybUd7Mxo=" crossorigin="anonymous"></script>
+<![endif]-->
+
+</head>
+
+<body style="display:none;">
+    <div class="ui-infobar container-fluid unselectable hidden-print">
+        <div class="row">
+            <div class="col-xs-12 ui-infobar-inner">
+                <div class="ui-infobar__user-info">
+                    <ul class="list-inline">
+                        <li>
+                            
+                                <span class="ui-lastchangeuser" data-profile="alternative-rvb">&thinsp;<a class="ui-user-icon small" style="background-image: url(https://lh3.googleusercontent.com/--nbid3mY0UY/AAAAAAAAAAI/AAAAAAAAAJk/160KV5VsXq4/photo.jpg);" target="_blank"></a></span>
+                            
+                            &nbsp;<span class="text-uppercase ui-status-lastchange"></span>
+                            <span class="ui-lastchange text-uppercase" data-createtime="Mon May 30 2016 04:38:38 GMT+0000 (UTC)" data-updatetime="Tue Aug 18 2020 09:40:55 GMT+0000 (UTC)"></span>
+                        </li>
+                        
+                        
+                    </ul>
+                </div>
+
+                <div class="text-right ui-infobar__actions">
+                    <ul class="list-inline">
+                        
+                        <li>
+                            
+                                <a class="ui-signin btn btn-default text-muted" href="release-notes#"><span>Subscribe</span></a>
+                            
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        
+        <div class="ui-comment-app" id="hackmd-app">
+            <div id="comment-app"></div>
+        </div>
+        
+    </div>
+    <div id="doc" class="container-fluid markdown-body" data-hard-breaks="true">Release Notes
+===
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.19.0 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2020-08-18 17:00
+---
+
+### Features
+
++ Support Fretboard for guitar notes (Beta)
++ Support previewing CSV and syntax highlighting in editor
++ Support PlantUML and syntax highlighting in editor
++ Support Graphviz syntax highlighting in editor
+
+### Enhancements
+
+* Update to add EE section for pricing page
+* Improve edit page accessibility
+* Update to show message while MathJax is loading
+* Update to show message while embed note is loading
+
+### Fixes
+
+* Fix to handle user has multiple emails on LDAP auth callback
+* Fix markdown keyboard shortcut conflict of `Ctrl+B` in Emacs keymap
+* Fix realtime server loading note relations query to reduce memory usage
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.18.0 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2020-07-23 16:40
+---
+
+### Enhancements
+
+* Update to prevent user change their email address with disposable email address
+* Add shortcut keys for markdown editing
+* Only load Stripe SDK on opening payment modal
+* Update to improve editor undo/redo stack user experience
+* Update to refresh CSRF token when it has expired
+* User who has basic role can request for higher permission
+
+### Fixes
+
+* Fix menu icons look too small in some devices
+* Fix view DOM might not in the latest state while editing
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.17.0 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2020-07-09 17:30
+---
+
+### Features
+
++ Allow user to insert note badge for GitHub syncing
++ Allow user request for account deletion
+
+### Enhancements
+
+* Update to prevent user sign up with disposable email address
+* Update to prevent robot sign up account
+
+### Fixes
+
+* Fix wording of note invites limitation in pricing page
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.16.8 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2020-07-03 19:00
+---
+
+### Fixes
+
+* Fix sidenav not render properly for guests
+* Fix blank page showing occasions
+* Fix published page might render footnote for multiple times
+* Fix published page not able to render if commenting is disabled
+
+### Changes
+
+* Disallow user with basic role to leave a comment
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.16.7 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2020-07-01 17:50
+---
+
+### Enhancements
+
+* Update to prevent closing textarea when reply comment is not empty
+* Update overview sidenav help and information menu
+* Add create note message and buttons for new users
+
+### Fixes
+
+* Fix GitHub sync not able to list files under branch name contains slashes
+* Fix GitHub sync installation update callback not redirect to correct url
+* Fix embed note syntax rendering issue for slide mode
+* Fix settings page tab state might fall into infinite loop
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.16.6 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2020-06-30 18:00
+---
+
+### Fixes
+
+* Fix commenting might not render properly with YAML metadata front matter
+* Fix commenting might not render properly with embed note syntax
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.16.5 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2020-06-26 15:10
+---
+
+### Enhancements
+
+* Limit max inline commenting highlight layers to 4
+
+### Fixes
+
+* Fix commenting error might not been reset
+* Fix published page with alias route not able to interact with comments
+* Fix commenting popover z index to avoid been overlay by commenting area
+* Fix checkbox interaction not reflecting to editor content
+* Fix HTML tag should not been auto closed in slide mode
+* Fix comment reply notification not been sent properly
+* Fix revision creation error caused by contaminated diff library property
+* Fix to avoid flash message been encoded
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.16.4 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2020-06-18 17:00
+---
+
+### Enhancements
+
+* Improve commenting cards behavior and styles
+* Update home page footer for Japanese locale
+* Update commenting wording for Japanese locale
+
+### Fixes
+
+* Fix Google Drive import Picker initialize API key error
+* Fix commenting select text popover might not position properly
+* Fix to hide disabled setting menu item
+* Fix GitHub webhook not delete installation properly
+* Fix GitHub webhook not able to receive large request
+* Fix comment container size and position for smaller screen
+* Fix book mode target blank syntax not parsing correctly
+* Fix comment notification handler not process quotation properly
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.15.4 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2020-06-16 17:50
+---
+
+### Fixes
+
+* Fix to avoid hidden tooltip overlap other element (porting back from future release)
+* Fix to hide disabled setting menu item (porting back from future release)
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.16.3 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2020-06-15 18:15
+---
+
+### Enhancements
+
+* Optimize realtime server emit comment and mention anchors performance
+* Auto focus on textarea when clicking commenting popover
+* Update home page footer
+
+### Fixes
+
+* Fix to give proper width for closed commenting area
+* Fix to scroll body to commenting container on selecting text
+* Fix commenting popover might not position properly on selecting text
+* Fix notification aggregator querying issue which caused by new commenting anchor format
+* Fix content heading id might not been updated and not stable on editing
+* Fix content heading id generate performance
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.14.5 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2020-06-12 15:00
+---
+
+### Fixes
+
+* Fix to prevent fetching mention list for guest user (porting back from future release)
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.16.2 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2020-06-11 18:20
+---
+
+### Enhancements
+
+* Change layout breakpoint for commenting to avoid visual changes on select text
+* Update pricing page for Enterprise plan
+
+### Fixes
+
+* Fix minor error on opening modal
+* Fix selection might cause error while editing
+* Fix edit mode page might not able to render on first load
+* Fix reset password link should be expired on change email and password
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.16.1 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2020-06-10 19:30
+---
+
+### Fixes
+
+* Fix mention text link is not rendering on creation
+* Fix to handle undefined token on parsing markdown
+* Fix ToC not render properly in view mode page
+* Fix to allow showing comment by url link
+* Fix minor English locale wordings
+* Fix several markdown parsing issues
+* Fix view mode page not able to render when commenting is disabled
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.16.0 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2020-06-09 15:00
+---
+
+### Features
+
++ New commenting has landed! Now you can leave a comment on certain text range :100: :tada: :blossom: 
++ Now you can interact with comments on view mode page!
+
+### Fixes
+
+* Fix to avoid hidden tooltip overlap other element
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.15.3 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2020-06-02 15:10
+---
+
+### Fixes
+
+* Fix to prevent fetching mention list for guest user
+* Fix feedback modal didn&#39;t show up on changing team plan
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.15.2 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2020-05-26 00:05
+---
+
+### Enhancements
+
+* Improve realtime register server performance to avoid overhead under more connections
+* Reduce realtime connection exit time to lower the inactivity traffic
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.15.1 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2020-05-14 17:20
+---
+
+### Enhancements
+
+* Remember and resume last workspace for overview page
+* Remember and resume last open mode for edit page
+* Raise max password length to 128 characters
+* Add tutorials link to home page
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.15.0 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2020-05-01 02:00
+---
+
+### Features
+
++ Support promotion code for team plan
+
+### Enhancements
+
+* Update to support allow attribute in iframe for certain domains
+* Improve parsing note id performance by adding TTL cache
+
+### Fixes
+
+* Fix error message might not show properly for unconfirmed email
+* Fix reset password link might not expire
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.14.4 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2020-04-27 21:30
+---
+
+### Enhancements
+
+* Improve query performance of saving timestamp for user and note
+* Support default expand book mode summary heading syntax
+* Support default expand spoiler container syntax
+* Add to show word count on click content length in editor status bar
+
+### Fixes
+
+* Fix to prevent delete team in subscription period
+* Fix to improve editor input performance
+* Fix to update page title and word count in edit mode
+* Fix to avoid alter note last change user on commenting
+* Fix to set username from LDAP only when it&#39;s empty
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.14.3 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2020-04-15 21:40
+---
+
+### Fixes
+
+* Fix minor issue for trending note page
+* Fix auth page include incorrect view template
+* Fix to order mention create event with operation and offset anchor
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.14.2 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2020-04-02 23:50
+---
+
+### Enhancements
+
+* Update features page for en, zh-tw locales about private image storage
+
+### Fixes
+
+* Fix to prevent adding create new note route to browser history
+* Fix exception when using number type in YAML metadata for disqus
+* Fix mention list avatar photo styles
+* Fix avatar photo might not able to fetch in mention list
+* Fix to escape HTML tags in comment to prevent XSS [Security Issue]
+* Fix to improve mention performance in realtime
+* Fix to fetch mention list only when editor is in focus
+* Fix mention might not able to render in blockquote
+* Fix Japanese locale wordings
+* Fix ranking issues for trending note page
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.14.1 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2020-03-18 18:10
+---
+
+### Fixes
+
+* Fix ranking issues for trending note page
+* Fix to subscribe note for invitee in order to receive mention notification
+* Fix grammer for mention notification email
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.14.0 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2020-03-17 17:00
+---
+
+### Features
+
++ Support mentioning user in note or comment :call_me_hand: :smiley: 
+
+### Enhancements
+
+* Add beta test page for note trending
+* Update features page for en, zh-tw and jp locales
+* Improve subscribe note UI to make its state clear
+
+### Fixes
+
+* Fix create note url might contain unnecessary query parameters
+* Fix Japanese locale wordings
+* Fix typo in Japanese locale for subscribe note button text
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.13.8 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2020-03-05 18:40
+---
+
+### Enhancements
+
+* Update and revise Japanese locale :flag-jp: 
+* Improve edit and watch buttons showing logic for published page
+
+### Fixes
+
+* Fix import a file from GitHub not open import modal properly
+* Fix notification authors might not generate and display properly
+* Fix book mode responsive break point for smaller screen
+* Fix GitHub sync description typo in pricing page
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.13.7 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2020-02-24 15:30
+---
+
+### Enhancements
+
+* Support OCaml syntax highlighting for code block
+* Support storing title anchor to url hash and browsing in book mode
+
+### Fixes
+
+* Fix minor team permission updater error in realtime server
+* Fix GitHub sync description in pricing page
+* Fix explicitly update inline authorship on typing might cause error
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.13.6 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2020-02-18 16:21
+---
+
+### Fixes
+
+* Fix missing CSP nonce for speaker notes page in reveal.js 3.9.2
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.13.5 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2020-02-13 17:25
+---
+
+### Features
+
++ Support Vega-Lite for visualizations 
+
+### Enhancements
+
+* Upgrade reveal.js to 3.9.2
+* Improve to display more informative note preview in profile page
+* Improve note authorship and comment buttons update and render performance
+* Upgrade emoji set, now has 1605 emojis :100: 
+* Add text on edit button in published note and only appear when user can edit it
+* Upgrade mermaid to 8.4.6
+* Add text of expand menu in book mode for smaller screen
+* Add tutorial link to help modal in the note edit page
+
+### Fixes
+
+* Fix comment notification might not send to invitees
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.13.4 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2020-02-07 16:10
+---
+
+### Enhancements
+
+* Allow select `.Rmd` file extension for GitHub sync feature
+
+### Fixes
+
+* Fix to handle GitHub get installation repos API return empty list
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.11.12 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2020-02-07 14:10
+---
+
+### Enhancements
+
+* Upgrade mermaid to 8.4.6 for supporting `[(Database)]` shape syntax in flow chart (porting back from future release)
+
+### Fixes
+
+* Fix to resolve conflict CSS styles for mermaid label class (porting back from future release)
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.13.3 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2020-02-05 13:40
+---
+
+### Fixes
+
+* Fix to show notifications in order of created time
+* Fix to prevent triggering search input when modal is open
+* Fix notification center message title might not parse properly
+* Fix profile page might not render properly
+* Fix to sort profile page member list
+* Fix profile page note link to use permalink when possible
+* Fix profile page locale text might not render
+* Fix profile page card preview and icon styles
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.11.11 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2020-01-23 03:00
+---
+
+### Fixes
+* Fix SAML certificate may not loaded correctly 
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.13.2 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2020-01-22 22:04
+---
+
+### Fixes
+* Fix user avatar and team logo might not load the correct image in profile page
+* Fix missing authors list modal in team profile page
+* Fix user path might not handle properly in profile page
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.13.1 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2020-01-22 19:46
+---
+
+### Fixes
+* Fix passing wrong type of parameter to team member quota check in realtime server
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.13.0 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2020-01-22 17:30
+---
+
+### Features
++ Support public team
+
+### Enhancements
+* Update pricing page for public team
+* Improve transfer note ownership modal to make it more clear
+* Update user and team profile page to show more relations
+
+### Fixes
+* Fix some minor missing word and translation
+* Fix missing hint for username input field in user settings page
+* Fix some overview pages might push too many same browsing history
+* Fix click online user profile might not scroll to correct cursor position
+* Fix error on user merge account without email
+* Fix note title in notification might show in encoded form
+* Fix notification not aggregate authors properly
+* Fix note update notification might not show author properly
+* Fix workers might not exit properly on catching error
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.12.4 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2020-01-21 18:00
+---
+
+### Fixes
+* Fix possible CSRF vulnerability of modify state HTTP methods [Security Issue]
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.11.9 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2020-01-20 21:00
+---
+
+### Enhancements
+* Update styles for multi-layer summary in book mode (from 1.12.0)
+
+### Fixes
+* Fix team role resource name might not been parsed properly (from 1.12.1)
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.12.3 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2020-01-14 17:00
+---
+
+### Enhancements
+* Support delete note in overview page
+* Update to use CommonHTML to render MathJax for better performance
+
+### Fixes
+* Fix redundant slash in MathJax resource path
+* Fix connection queue mechanism to avoid draining DB resource
+
+### Changes
+* Allow team note change view permission without publishing
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.12.2 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2020-01-06 20:40
+---
+
+### Enhancements
+* Upgrade markdown-it to version 10.0.0 for supporting CommonMark 0.29 (spec)
+
+### Fixes
+* Fix note alias might not be parsed properly in some named revision APIs
+* Fix notification sending might not respect user preferences
+* Fix user might not able to receive email notification for general updates
+* Fix announcement link text styles to prevent overflow in notification center
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.12.1 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2020-01-02 22:00
+---
+
+### Fixes
+* Fix sending general updates email should respect notification settings
+* Fix auto subscribe contributed note updates should respect notification setting
+* Fix team role resource name might not been parsed properly
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.12.0 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2020-01-01 18:20
+---
+
+### Features
++ Happy New Year 2020!
++ Support notification center
+
+### Enhancements
+* Update styles for multi-layer summary in book mode
+* Add unsubscribe link to notification emails
+* Update notification settings to separate general and important updates
+* Update notification settings to customize team notification preferences
+
+### Fixes
+* Fix create GitHub sync mapping not working for note with alias
+* Fix team member transfer and note transfer might not update subscription properly
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.11.8 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2019-12-30 18:00
+---
+
+### Fixes
+* Fix note invitee permission might not been granted correctly
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.11.7 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2019-12-27 13:40
+---
+
+### Enhancements
+* Avoid unstable serialize on license checking in EE
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.11.6 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2019-12-26 14:10
+---
+
+### Fixes
+* Fix side nav help menu not render properly in EE
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.11.5 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2019-12-25 18:30
+---
+
+### Fixes
+* Fix search in workspace might not render untagged notes properly
+* Fix book mode collapsible summary header style issues
+* Fix revoke auth method might not exist error
+* Fix missing transaction rollback on rate limit team invitation
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.11.4 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2019-12-24 16:00
+---
+
+### Enhancements
+* Update to preserve tags menu selection to URL search parameters
+* Adjust side nav styles for better accessibility
+
+### Fixes
+* Fix to handle deleted team permission update event in realtime
+* Fix minor page margin and button styles
+* Fix to prevent language selection menu overflow for smaller screen
+* Fix team plan billing role dropdown not showing any option
+* Fix GitHub synced note with alias not able to get sync status
+* Fix GitHub sync not able to pull when path contains space
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.11.3 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2019-12-24 12:00
+---
+
+### Enhancements
+* Support collapsible summary header in book mode
+* Support Azure AD OAuth 2.0 auth method
+* Update to rate limit team member invitation
+* Support S3 upload with customized endpoint and ACL
+* Support SAML request without certificate
+* Update create note API to use POST method
+* Update queue job cleaner to remove redundant cache keys
+* Support GraphQL and Julia syntax highlighting for code block
+
+### Fixes
+* Fix to redirect previous note link to permalink based URL
+* Fix to limited document max length in realtime server
+* Fix note creation button not showing when user is signed in and anonymous note creation is disabled
+* Fix to avoid URL validation cause regex catastrophic backtracking
+* Fix to redirect user to sign in page on visit settings and profile page before user signed in
+* Fix to hide reminder tooltip after user signed in on smaller screen
+* Fix book mode style tag might not be parsed properly
+* Fix editor attachment dropping position should match the cursor position
+* Fix OAuth signin redirection might fall to 404 not found
+* Fix note hosting scrollbar syncing issues
+* Fix speakerdeck fetching API might get timeout error
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.11.2 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2019-11-22 17:30
+---
+
+### Enhancements
+* Update to verify permission on accessing images
+
+### Fixes
+* Fix to hide category sorting option when category is disabled
+* Fix word wrapping styles in tag filter
+* Fix sidenav collapse area cursor styles to avoid confusion
+* Fix slide example share guide image size
+* Fix Try it template typo
+* Fix home page wording typo and link plan area to pricing page
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.8.6 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2019-11-22 16:03
+---
+
+### Enhancements
+* Support to exclude basic user when option enabled
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.8.5 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2019-11-15 00:00
+---
+
+### Enhancements
+* Introduce new licensing mechanism
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.11.1 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2019-11-13 16:30
+---
+
+### Fixes
+* Fix tabs in collaborative notes
+* Fix sidenav, team name and menu title text should ellipsis on overflow
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.11.0 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2019-11-12 17:10
+---
+
+### Features
++ Introduce the whole new Overview page :tada: 
+
+### Enhancements
+* Update to show more cards in Overview page for wider screen
+* Update to show print button in slide mode
+* Update slide example to show how to change publish type
+
+### Fixes
+* Fix style of printing in slide mode
+* Fix to hide upgrade button when payment is not available for some roles
+* Fix join page redirection might cause exception
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.10.6 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2019-11-05 17:10
+---
+
+### Enhancements
+* Support shortcut keys for table and word wrap preferences
+
+### Fixes
+* Fix table tools on toolbar disabled
+* Fix image might not able to upload
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.10.5 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2019-10-30 22:00
+---
+
+### Fixes
+* Fix not able to open reset password modal in dashboard
+* Fix to prevent requesting realtime register server overhead by cache
+* Fix to clean up redundant socket on clean notes in realtime
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.10.4 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2019-10-28 16:00
+---
+
+### Fixes
+* Fix to handle note might not available on checking if may edit in realtime
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.8.4 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2019-10-28 11:00
+---
+
+### Enhancements
+* Support customize notification email sender domain
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.10.3 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2019-10-27 23:40
+---
+
+### Fixes
+* Fix to make stripe public key configurable
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.10.2 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2019-10-27 05:24
+---
+
+### Fixes
+* Fix possible circular dependency on response
+* Fix missing data on rendering page templates
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.10.1 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2019-10-27 02:00
+---
+
+### Enhancements
+* Upgrade CodeMirror to 5.49.3
+* Upgrade mermaid to 8.4.0
+
+### Fixes
+* Fix team information might not been updated after upgrade plan
+* Fix image might not able to upload properly
+* Fix existing team might not handle properly
+* Fix managed image upload type config naming
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.10.0 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2019-10-23 14:00
+---
+
+### Features
++ Introduce new home page and pricing page :+1: 
++ Team can subscribe team plan for more awesome features :tada: 
++ Add team/personal billing page
++ Support uploading images to managed storage
++ Support markdown table editor with toolbar :100: 
+
+### Enhancements
+* Revise Terms of Service
+* Adjust book mode navbar styles for alignment on mobile
+* Improve feedbacks modal for better rating experience
+* Improve overview beta layout and styles
+* Improve routing performance by optimize team path lookup middleware
+* Support empty title for soiler syntax
+* Support ruby annotation syntax
+
+### Fixes
+* Fix MathJax might not load properly due to the import order
+* Disallow sandbox attribute in iframe whitelist [Security Issue]
+* Fix to treat email in case insensitive to avoid duplication
+* Fix link exploder might not insert note title properly when it contains symbols
+* Fix comments might not able to show in some race condition
+* Fix GitHub sync might not able to change authorized user after revoked
+* Fix team invitees might not count correctly
+* Fix team path might not check for duplication on create
+
+### Changes
+* Allow team member save named revision and push to GitHub
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.8.3 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2019-10-09 13:50
+---
+
+### Enhancements
+* Support excluding basic users on update subscription
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.9.4 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2019-09-04 20:42
+--
+
+### Features
++ Support to create, leave and delete team by user
++ Support reporting feedbacks by popup modals
+
+### Fixes
+* Fix recent page not parse history properly in new overview page
+* Fix rate limit should not apply slow down limit
+* Fix font styles for book mode
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.9.3 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2019-08-26 20:20
+---
+
+### Features
++ New overview page now in Beta :star2: 
+
+### Enhancements
+* Update to use proper fonts for different locale pages
+* Update to rate limit note invitation
+
+### Fixes
+* Fix comment notification not showing note owner properly
+* Fix note revision content might not been calculated properly
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.9.2 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2019-08-16 14:20
+---
+
+### Enhancements
+* Update to support note hosting feature for smaller screen
+* Upgrade reveal.js to 3.8.0
+
+### Fixes
+* Fix note revision content might not calculate properly
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.9.1 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2019-08-15 18:15
+---
+
+### Fixes
+* Fix to avoid overwrite note content on load edit note page
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.9.0 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2019-08-14 20:10
+---
+
+### Features
++ Support note hosting feature
+
+### Enhancements
+* Update to record all visited notes in Recent page
+* Update to increase view count on visiting edit note page
+* Update to render note on DOM loaded in edit note page for showing content earlier
+
+### WIP
+* Brand new navigation solution in beta :star2: 
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.8.2 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2019-08-08 22:00
+---
+
+### Fixes
+* Fix editor preferences might not being parsed properly
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.8.1 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2019-08-06 23:00
+---
+
+### Fixes
+* Fix standalone GitHub webhook application launch issue
+* Fix executable application launch issue which caused by ODF exporter
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.8.0 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2019-08-06 12:00
+---
+
+### Features
++ Support GitHub integration of syncing a file
++ Support to change note line breaks rendering rule
++ Support to setup default note line breaks rendering rule
++ Support jumping to user cursor position when click in online user list
+
+### Fixes
+* Fix possible JSONP callback overwritten [Security Issue]
+* Fix possible XSS in mermaid [Security Issue]
+* Fix to clear permalink on delete note to avoid conflicts
+* Fix template listing might cause error if team path is not provided
+* Fix possible memory leaks of max listener exceeded in queue
+
+### Glitch :construction: 
++ KONAMI activate power mode :arrow_up: 
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.7.4 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2019-08-05 14:10
+---
+### Features
++ Support to set toobusy.js max lag time
+
+### Fixes
+* Fix a potential global lock out when user attempts to sign in exceed max times
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.7.3 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2019-07-15 11:00
+---
+### Fixes
+* Fix to prevent invite user by non-email or UUID string
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.7.2 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2019-07-03 13:00
+---
+### Fixes
+* Fix a possible unauthorized page access for sign-in users
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.7.1 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt;2019-07-02 12:50
+---
+### Fixes
+*  Fix current version summary might not shown in versions modal
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.7.0 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2019-07-01 20:20
+---
+### Features
++ Support naming versions
+
+### Enhancements
+* Improve revisions to be versions and redesign styles and layout
+* Support timer and spotlight features in slide mode
+* Update to support yank text to clipboard for vim mode in editor
+* Update to add autocomplete to input fields
+* Update to remind guest user to sign in
+* Support YAML syntax highlighting for code block
+* Update to improve overview API query performance
+* Update transfer ownership modal text, styles and layout
+
+### Fixes
+* Fix to fix overview page padding top to avoid reflow on page loaded
+* Fix invite user might query id with string
+* Fix incorrect overview and recent card height in Firefox
+* Fix template apply button is not visible in iOS mobile
+* Fix book mode url not keeping the browsing item when it has pathname
+* Fix reset user password in dashboard might not working
+* Fix to prevent transfer note when target has note of same permalink
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.6.1 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2019-06-20 19:00
+---
+### Enhancements
+* Update wording of limited usage user modal message
+
+### Fixes
+* Fix to allow permalink been set to length 22
+* Fix create comment should also update last change user
+* Fix profile page card should sort by last change time
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.6.0 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2019-06-12 21:10
+---
+### Features
++ Support to send notification email for comments
+
+### Enhancements
+* Update to show modal when limited usage user tries to edit
+* Update to provide open graph header for profile page
+* Update to make id been taken message more friendly
+* Update to remind more error info for setup permalink
+* Update to increase permalink max length to 200 characters
+
+### Fixes
+* Fix to avoid infinite opening which caused by recursive reference in book mode
+* Fix to check username and team path uniqueness in dashboard
+* Fix profile hover card might not been updated in the note edit page
+* Fix to check password complexity when create user in dashboard
+* Fix wording and grammar mistakes in the notification emails
+* Fix to allow more input combinations for permalink and username 
+* Fix to check username uniqueness before user register
+* Fix book mode can&#39;t be edited when there is no summary item can be open in the same window
+* Fix ribbon styles in the getting started page
+* Fix revision not been generated for empty content note
+* Fix the write permission of team note not been checked properly
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.5.1 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2019-06-03 15:35
+---
+### Features
++ Support to show team profile page publicly
+
+### Enhancements
+* Update to show edit button on card when viewing own profile page
+* Update to show published icon, publish type and link in overview page card
+* Update to remind user fill its username in share menu
+* Update to show team profile card and link when hovering on team name or logo
+* Update to redirect shortid based URL to permalink whenever possible
+* Update to cancel permalink changes on closing share menu
+
+### Fixes
+* Fix to allow user change its username to identical one in different letter case
+* Fix permission checking issue in team note
+* Fix styles and layout of navbar and invitee input when user has long display name
+* Fix hover card opening position to avoid overlapping on time text
+* Fix wording of profile page
+* Fix to prevent permalink been set to the path that might cause conflicts
+* Fix wording of user settings page
+* Fix sidenav backdrop might not be closed when screen size changed
+* Fix missing published and publish type icons in profile page card
+* Fix styles and layout of profile page for smaller screen
+* Fix invitee list menu might not be updated while permission has been changed
+* Fix styles and layout of share menu for smaller screen
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.5.0 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2019-05-28 15:45
+---
+### Features
++ Support to show user profile page publicly
++ Support to publish notes on profile page
++ Support to customize note permalink
+
+### Enhancements
+* Update to show user profile card and link when hovering on username or avatar
+* Update user profile page with redesigned layout and styles
+
+### Fixes
+* Fix to avoid note owner inviting itself to be invitee
+* Fix missing resource file in slide mode
+* Fix the config to determine if OAuth sign in is limited to whitelist might not be parsed properly
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.4.10 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2019-05-20 18:00
+---
+### Enhancements
+* Update to support style tag in book mode
+* Update to add config to determine if OAuth sign in is limited to whitelist
+
+### Fixes
+* Fix to handle url hash which might cause selector syntax error
+* Fix to reduce timeout errors on page loading
+* Fix to make vertical writing theme responsive to page height
+* Fix to hide tooltip in template viewer
+* Fix to make top page redirection when click sign in button in book mode
+* Fix to avoid realtime server creating redundant workers while queue has multiple tasks
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.4.9 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2019-05-15 14:50
+---
+### Enhancements
+* Update to support changing pending invitee permission
+* Update to support a limited RBAC role for limited usage
+
+### Fixes
+* Fix user might not been redirected to designed resource on the first sign in
+* Fix to check user permission for resending invitee invitation
+* Fix to avoid showing pending invitiation for users don&#39;t have invite permission
+* Fix invitee permissions button group order
+* Fix to handle unexpected user profile id duplicates from different providers
+* Fix to avoid updating accpected invitation in realtime server
+* Fix redirection on clicking resend verification email when it has already been verified
+* Fix realtime server might ignore some operations and unable return to stable state in some conditions
+* Fix timestamp might not consistent in authorship and operations
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.4.8 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2019-05-13 14:10
+---
+### Enhancements
+* Update to prolong invitation expiration time
+
+### Fixes
+* Fix and update invitation email wording and flash messages
+* Fix and update email confirmation wording and flash messages
+* Fix account integration procress should migrate legacy user profile first
+* Fix sign up with invitation should keep the form fields fixed or prefilled
+* Fix realtime server saving mechanism to make the worker startup process more robust
+* Fix tooltip styles to make them consistent
+* Fix sign up via email might showing incorrect flash message
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.4.7 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2019-05-08 19:20
+---
+### Enhancements
+* Update the internal method of handling confirmation email expiration
+* Improve editor tooltip update calls
+* Update to hide users&#39; email in invitation search for privacy
+* Update to support user to leave invitees by itself
+* Update to prevent comment permission UI over emit changes event
+
+### Fixes
+* Fix few users might fail account integration at sign in
+* Fix to avoid sync scroll on editor refreshed or resized
+* Fix to prevent realtime server busying for queue events
+* Fix sequence diagram might not able to render in static page
+* Fix CodeMirror to include merge view
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.4.6 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2019-05-06 20:00
+---
+### Enhancements
+* Improve editor rendering authorship, typing, sync scrolling performance
+* Improve page load and resize performance
+* Update to make editor always have extra padding in the bottom (aka scroll past end)
+* Update comment feature init order to prevent blocking first rendering and avoid ajax request timeout
+* Update to limit the rate of sending confirmation email
+* Upgrade popper.js to 1.15.0 for tooltip
+* Update to limit the rate of signing up
+* Update to lock user account if sign in attempts deny the policy
+
+### Fixes
+* Fix few users&#39; sign in action might affect server performance
+* Fix to show announcement image tag only when available
+* Fix to handle related note might not exist in summary notification task
+* Fix permission popover might not initialize properly in guest note
+* Fix to fully reload authorship in editor on refresh event
+* Fix realtime server dosen&#39;t not disconnect duplicated socket in queue properly
+* Fix error message for invalid reset password link
+* Fix note create from template might not parse tags properly
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.4.5 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2019-04-24 14:30
+---
+### Enhancements
+* Improve editor typing performance
+* Improve page load performance
+
+### Fixes
+* Fix forgot password and reset password page styles and layout
+* Fix to validate password complexity on reset password
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.4.4 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2019-04-23 17:30
+---
+### Features
++ Support forgot password and reset password
++ Support to set separated permission for comments
++ Support template and customize template
++ Support sign-in methods integration
+
+### Enhancements
+* Upgrade CodeMirror to version 5.46.1
+* Update to require higher password complexity
+* Update to auto sign in user after sign up in email
+* Improve i18n middleware orders for better performance
+* Add onfig options for trust proxy
+* Update to use Helvetica over Roboto font for better readibility on Linux
+* Improve dashboard query performance
+* Improve RBAC role and team query performance
+* Add config options for db benchmark and db pool max connections
+* Improve collab page load performance by load authorship based on viewport
+* Improve comments button render performance
+
+### Fixes
+* Fix getting started page might not able to visit before locale cookie been set
+* Fix create note with empty title might fail
+* Fix to avoid self cursor been overlapped by other cursors
+* Fix to avoid adding extra padding bottom when editor doc height is less than default text height
+* Fix to normalize all note content end of line to be line feed
+* Fix to avoid note title been genereated in numberic type
+* Fix link exploder to handle history title might be numberic type
+* Fix stored XSS in the graphviz error rendering [Security Issue]
+* Fix anchor position of view mode in collab page due to the fixed header blocked the top margin
+* Fix email auto mapping behavior for SSO
+* Fix protected permission of team note
+* Fix announcement should be able to be closed or not based on config
+* Fix passport auth middleware might not save session before redirect
+* Fix to handle invalid note id or content type in embed hackmd syntax
+* Fix to make editor read-only on network latency is too high
+* Fix link exploder for compatibility with old history time format
+* Fix note title might not parsing properly in collab page
+* Fix missing transaction commit for SSO
+* Fix MathJax XSS issue by adding built-in Safe extension [Security Issue]
+* Fix to remove old temp file after exporting notes as an archive
+* Fix to get authentication in settings route only when user signed in
+* Fix to escape html in overview search result
+* Fix export notes filename or filename length might be invalid
+* Fix slide mode and book mode template missing properties
+* Fix not passing transaction when updating user email
+
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.3.0 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2019-02-21 15:30
+---
+### Features
++ Support download all user notes or team notes as an archive
++ Support i18n for whole site
++ Beta support HackDF
++ Support invite user join note or team by email
++ Support note commenting
+
+### Enhancements
+* Improve front-end bug tracker performance
+* Support X-Frame-Options header to prevent clickjacking
+* Update to split auth model from user model for better flexibility
+* Refactor edit page scripts for better maintainability
+* Update to set user icon sizing style to cover all background
+* Support emitting event from web to realtime server
+* Support front-end locale i18n
+* Update to ensure loading specified MathJax version
+* Support loading asset resource from asset host
+* Update edit page nav menu for smaller screen
+* Update to hide external link syntax on rendering list item
+* Update support more granular RBAC roles for admins
+* Upgrade MathJax to version 2.7.5
+* Update year to 2019 (Happy New Year!)
+* Support showing editor line number relatively
+* Support restrict domains that allowing for email register
+* Update to avoid using div tag under p tag or the DOM element might be splited by browser
+* Support sending email from SMTP server
+* Improve editor performance by debouncing update view ToC event
+* Upgrade CodeMirror to version 5.41.1
+* Improve edit page permission UI by showing all detail options and hint in a popover
+* Improve editor performance by debouncing authorship update event
+* Improve editor performance on pulling recent history
+* Add Getting Started pages to help user onboard
+* Support showing announcement on navbar
+* Improve edit page navbar styles and layout
+* Add `rel=noopener` to all external links to enhance security
+* Add download actions to published note and slide mode
+* Upgrade flowchart.js to version 1.11.3 to support parallel task
+* Improve performance of transporting authorship by diff patches
+* Improve online user list performance in edit page
+* Add and improve sign in and sign up pages
+* Update to auto add a new line when press down in the last line
+* Update to show user roles and teams properly in dashboard
+* Support reset user password in dashboard
+* Update to revise published note page styles and layout
+* Support toggle ordered list checkbox
+* Upgrade mermaid to version 8.0.0-rc.8
+* Support rust syntax highlighting in code block
+* Update to redirect back to proper page after note deleted
+* Update to hide ToC menu when it&#39;s empty
+* Update overview search to include both keywords and tags
+* Upgrade viz.js to version 2.0.0
+* Support specify params in fence code block
+
+### Fixes
+* Fix edtior toolbar code button might not working properly
+* Fix revision patch workaround regex for lone surrogates utf8
+* Fix image metadata might not show properly
+* Fix to respect user email notification setting in all occasions
+* Fix to sanitize disqus shortnames to remove slashes [Security Issue]
+* Fix to escape html comment tag [Security Issue]
+* Fix embed gist assets source might not in the CSP directives
+* Fix mobile might not able to scroll page in book mode
+* Fix ToC breaking documents with empty h* elements
+* Fix ToC expand toggle might not been updated after updateView
+* Fix to delay embed gist view ajax callback since the reflow takes time
+* Fix ToC might not been updated on adding back after deletion
+* Fix authorship gutter might not get attribute properly
+* Fix to show locked modal for invalid editing in protected permission
+* Fix to insert in the position of cursor instead of replacing whole note on import
+* Fix to redirect to overview whenever possible after signin
+* Fix on event binding in editor instance might been called multiple times
+* Fix to add CSRF tokens on all forms and ajax
+* Fix syncscroll might not accurate on list item
+* Fix possible XSS in the textcomplete of tags and link exploder
+* Fix checkbox might update incorrect list item
+* Fix embed note fetching should disable cache
+* Fix select2 format result should escape HTML to prevent XSS
+* Fix some possible uft8 encoding glitch in revisions
+
+### Deprecations
+- Deprecate use of Google plus
+- Deprecate use of Yahoo query language
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.2.0 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2018-10-02 22:00
+---
+### Features
++ Support tags completion
++ Support sending note create and change notification email and make them threaded!
++ Support showing changeset and authors in revision
+
+### Enhancements
+* Support more options for overview
+* Improve realtime server status performance
+* Release new homepage to convey our ideas clearly
+* Adjust blockquote font size to 16px
+* Support sort category and note by time and alphabet order
+* Support kbd tag style in slide mode
+* Update to sort and display note by last change time
+* Update to add timestamp to revision changeset tooltip
+* Support upload image to Google Cloud Storage
+* Support bash syntax highlighting in edit pane
+* Support R syntax highlighting in view pane
+* Update to send team invite notification
+* Improve syncscroll performance by changing method for measuring line height
+* Make google signin button match guidelines
+* Make authorship gutter more consecutive and inline markers less fragment
+* Improve book mode multiple openings performance
+* Improve tooltip component performance
+* Improve remove authorship gutters and inline marks performance
+* Update to show note count in recent, overview page and tags dropdown search tags
+* Update to add team member removal confirm modal
+* Adjust revision modal layout for smaller screens
+* Adjust revision diff and authorship inline styles
+* Make revision insert and delete text marker background color more obvious
+* Make mark tag background color more obvious
+* Adjust book mode toolbar in desktop mode
+* Adjust mode change button padding and styles
+* Support sending email from SendGrid
+* Support upload image to Azure Storage (blob)
+* Upgrade CodeMirror to 5.39.1
+* Support groovy, json, json-ld syntax highlighting in code block
+
+### Fixes
+* Fix to add line count bias on rendering preview parts
+* Fix to prevent requesting too large data in team APIs
+* Fix redundant cleaner might not work properly in realtime server
+* Fix note revisions might generate properly
+* Fix link-exploder should not show in some occasions
+* Fix typo in the yaml-metadata doc
+* Fix sanitize and escaped templates values/strings [Security Issue]
+* Fix to prevent user change email in some occasions
+* Fix to ignore disabled users on search and prevent been invited
+* Fix cover navbar brand team dropdown menu not scrollable on overflow
+* Fix authorship might not showing and updating properly
+* Fix textcomplete dropdown might not sort correctly
+* Fix Google Drive import/export might not have proper request scope
+* Fix to make search terms can match more results
+* Fix to performance or rendering content with resize sensor
+* Fix to make emoji vertical alignment
+* Fix to handle multiple items types on paste and drop event
+* Fix note worker timeout and callback issues in realtime server
+* Fix note might not be saved properly on connect/disconnect in short period
+* Fix for teams references and permissions fetching issues in realtime server
+* Fix for showing auth error message properly to users
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.1.20 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2018-05-31 02:00
+---
+### Features
++ Add to allow embed note
++ Add to allow EE customization
+
+### Enhancements
+* Update to allow reset team logo
+* Update to allow reset user avatar
+
+### Fixes
+* Fix to handle more link exploder ignore and use cases
+* Fix to workaround some edge cases that breaks syncscroll
+* Fix to use brighter and consistent random color generation
+* Fix fragment in slide mode might not get previous node properly
+* Fix realtime should decode URI on parsing note id query
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.1.19 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2018-05-21 00:30
+---
+### Enhancements
+* Update to make syntax highlighting theme more consistent
+* Update to support code block syntax highlighting of C, C++, Java, C#, Objective-C, Scala and Kotlin
+* Update to support YAML frontmatter syntax highlighting in editor
+
+### Fixes
+* Fix and improve performance of extract frontmatter for YAML metadata
+* Fix to handle when there are no available items to active in book mode
+* Fix extra tags for blockquote in textcomplete might not replace text properly
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.1.16 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2018-05-17 01:00
+---
+### Enhancements
+* Update to enhance and add more options for SSO
+* Update to sort tags in recent page
+
+### Fixes
+* Fix realtime might not interrupt connection properly
+* Fix note view permission not might check properly
+* Fix to redirect back to team page after delete team note
+* Fix gravatar might not able to show
+* Fix realtime should not build roles on guests
+* Fix dashboard might not able to clear team description
+* Fix dashboard might not able to update user details
+* Fix unable to click on dropdown menu in smaller screen devices
+* Fix editor toolbar to horizontally scrollable in smaller width
+* Fix cursor menu might not sort properly in some cases
+* Fix to prevent opening same note across realtime servers
+* Fix syncscroll of editor might delay after some edits
+* Fix header navbar of index page in smaller screen
+* Fix some link path might cause inifinte iframe in book mode
+* Fix link exploder behaviors of link path and handle more input cases
+* Fix loading spinner not showing
+* Fix CSP should allow external import/export sources
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.1.7 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2018-05-08 01:30
+---
+### Enhancements
+* Update to set X-XSS-Protection header
+* Update to tighten CSP default directives
+
+### Fixes
+* Fix to prevent enable invitee UI when user not login
+* Fix to prevent assign note owner and team at same time in dashboard
+* Fix empty search string of user and team search page not redirect back in dashboard
+* Fix note search not showing owner and team in dashboard
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.1.6 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2018-05-06 10:30
+---
+### Features
++ Add CSP headers
++ Add link exploder
+
+### Enhancements
+* Update to support given multiple cert path in SAML auth module
+* Update to support code block syntax highlighting of diff and shell
+
+### Fixes
+* Fix to fail email signin when user haven&#39;t set password
+* Fix minor style and layout issues
+* Fix ajax url in team manage page
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.1.0 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2018-04-29 00:10
+---
+### Features
++ Add teamspace
++ Add SAML auth module
++ Add load balancer of realtime server
+
+### Enhancements
+* Upgrade highlight.js version to 9.12.0 for supporting shell language
+* Update to support secure session cookie
+* Update to add title attribute to TOC
+* Update to make smart paste as editor preferences option
+* Update to pre-validate user creation form and reset on error in dashboard
+* Update to improve showup header performance
+* Update to make realtime server more robust and use worker to leverage save tasks
+* Update to revise index page
+* Update to keep url search on show note redirection
+
+### Fixes
+* Fix to force disconnect socket when realtime in maintenance mode
+* Fix to prevent add duplicated resize sensor event in syncscroll
+* Fix to prevent view area scroll jittering on edit
+* Fix process style tag might cause error
+* Fix redirect loop cause by static file serve without add trailing slash
+* Fix to make settings page data after user auth
+* Fix to handle on paste event get invalid file
+* Fix missing includes of flowchart and abcjs in published note and slide in CDN
+* Fix to prevent mermaid tooltip causing editor page body overflow
+* Fix null in url search part will cause too many redirection
+* Fix to unescape HTML entities after first XSS filtering
+* Fix LZString type note url might not been parsed correctly
+* Fix recent page item template and styles
+* Fix to improve migrate note url performance
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.0.13 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2018-03-03 16:40
+---
+### Fixes
+* Fix to migrate note url in the browser storage and cookie to url-safe base64 note url
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.0.12 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2018-03-03 13:00
+---
+### Enhancements
+* Upgrade dependencies
+* Upgrade code style linter
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.0.11 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2018-03-02 18:30
+---
+### Enhancements
+* Update to allow br tag in header in book mode
+* Update to while list more HTML5 tags with styles
+* Update to switch the view and edit buttons to match the layout
+* Upgrade CodeMirror to 5.35.0
+
+### Fixes
+* Fix note title might not able to extract when it contains more than one line break
+* Fix to prevent unescape html entity twice in slide mode
+* Fix esc key passing in the editor
+* Fix to use url-safe base64 note url
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.0.10 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2018-03-01 02:12
+---
+### Fixes
+* Fix note might not be updated to db in heavy loading
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.0.9 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2018-02-02 01:55
+---
+### Fixes
+* Fix upload image button not working
+* Fix to preserve horizontal tab in control character
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.0.8 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2018-02-01 12:50
+---
+### Enhancements
+* Upgrade socket.io to 2.0.4
+* Upgrade reveal.js to 3.6.0
+
+### Fixes
+* Fix to handle if user not found on deserializing user data
+* Fix to remove control characters before render to prevent syntax error
+* Fix slide mode arrow not showing
+
+### Removes
+- Remove fix for not having cursor on IME composition which not works well
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.0.7 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2018-01-28 21:52
+---
+### Features
++ Add shortcut key for persistent search
++ Add to support smart paste and drop of HTML
+
+### Enhancements
+* Update to revise overview page
+* Update to support image option in YAML metadata for link preview
+
+### Fixes
+* Fix task list item might not able to toggle
+* Fix not having cursor on IME composition
+* Fix for API break change of mermaid 7.1.x
+* Fix image alt not render properly
+
+### Refactors
+* Refactor to use React on overview page
+* Refactor and improve webpack build time
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.0.6 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2018-01-22 10:03
+---
+### Enhancements
+* Fix anchor id should keep uppercase text
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.0.5 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2018-01-04 22:43
+---
+### Enhancements
+* Update to add banner and concept image for demo site
+* Update to adjust index styles
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.0.4 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2018-01-03 18:50
+---
+### Features
++ Add role-based control in overview page
+
+### Enhancements
+* Update year to 2018 (Happy New Year!)
+* Update to adjust dashboard layout and styles
+
+### Fixes
+* Fix some wording in dashboard
+* Fix dashboard file naming issue
+* Fix to pack dashboard resources
+* Fix webpack config and template public path
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.0.3 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2017-12-28 02:32
+---
+### Fixes
+* Fix revision worker not working
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.0.2 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2017-12-28 01:16
+---
+### Features
++ Add support of external link syntax in book mode
+
+### Fixes
+* Fix webpack bundle config public path
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.0.1 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2017-12-26 12:18
+---
+### Fixes
+* Fix user limit counting error
+* Fix to prevent open new tab on clicking internal links in book mode
+* Fix plain text of the summary link not having enough margin in book mode
+* Fix header links not able to show in book mode
+* Fix building issue on Windows
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; EE 1.0.0 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2017-11-25 13:30
+---
+### Features
++ Add advanced role-based control
++ Add dashboard panel
++ Add overview page
++ Add support of advanced premission
++ Add mailer and related email options
++ Add editor toolbar
+
+### Enhancements
+* Update new landing page
+* Update to support code block syntax highlighting of SAS
+* Update to improve note and revision workers performance
+* Support sending email confirmation
+* Upgrade sequelize to 4.x
+* Update to remind user if leaving with pending OT operations
+* Update to use lower realtime heartbeat interval and timeout to make network status more responsive
+* Update to improve user online, offline and listing events more efficient
+* Upgrade socket.io to 2.0.3
+
+### Fixes
+* Fix to prevent srcdoc attribute in iframe element [Security Issue]
+* Fix links within iframe in the book mode should open in new tab
+* Fix gist plugin code closing tag
+* Fix to prevent loading resources on post process html [Security Issue]
+* Fix to prevent sync scroll to editor on view update and view ajax callback
+* Fix hyperlink behavior incorrectly after user download note
+* Fix synscroll jitter by detecting resize of edit and view area
+* Fix slide mode contains unclosed tags might cause XSS [Security Issue]
+* Fix unclosed tags might cause XSS [Security Issue]
+* Fix scope in google auth not been set properly
+* Fix home and end keys behavior for windows
+* Fix responsive detection component might break the navbar layout
+* Fix incorrect cursor attribute selector
+* Fix to handle model strip null byte
+
+### Refactors
+* Refactor back-end code for extensibility
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; 0.5.2 `Affogato` &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2017-06-14 14:00
+---
+### Features
++ Add support of book mode
++ Add basic search feature in profile page
++ Add profile page
++ Add settings page and support custom user avatar, name, username, email, biography
++ Add recent page
++ Add support of abcjs
+
+### Enhancements
+* Add support of Danish locale
+* Add more reveal features to slide demo
+* Upgrade socket.io to 2.0.2 and remove uws as direct dependency
+* Upgrade reveal.js to 3.5.0
+* Upgrade viz.js to 1.8.0 and use lite version
+* Update to support set slide theme in slide options
+* Upgrade to webpack 2
+* Update to make editor have extra scroll padding in the bottom
+* Update to support code block syntax highlighting of gherkin
+* Update to make edit link in publish note and slide go directly to hackmd edit mode
+* Update to change makefile syntax highlighting to Prism
+
+### Fixes
+* Fix slide mode might hide scrollbar on some linux
+* Fix speaker note separator regex should only take effect on the line start
+* Fix ContentType not set when upload image to S3
+* Fix to implement toggle of TOC in HTML template
+* Fix revisions are not compare and parse correctly
+* Fix link regex should filter protocol with case insensitive flag [Security Issue]
+* Fix text complete of extra tags for list not triggered properly
+
+### Refactors
+* Refactor back-end code with better structure
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; 0.5.1 `Doppio` &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2017-03-23 00:20
+---
+### Enhancements
+* Update to indicate version in status API header
+* Update to generate front-end constants on server startup
+* Update to add gitlab api scope option and auto adapt gitlab snippet feature on it
+* Update to add default permission config option
+* Update to add basics for secret management by Docker 1.13
+* Update webpack config to use parallel uglify plugin to speed up production build
+* Update realtime to use timer to avoid memory leaks on busy tick
+* Update to remove history cache to lower application coupling
+* Update to add screenshot on index page
+* Update index layout to add profile on navbar
+* Update to support allow email register option
+* Update to support disable anonymous view option
+* Update to add limited and protected permission
+* Update to allow displaying LDAP provider name on sign-in modal
+* Update to show yaml-metadata and diagram parsing error in the view
+
+### Fixes
+* Fix XSS vulnerability in link regex [Security Issue]
+* Fix todo list item class might add in wrong element
+* Fix pagination error in list.js over v1.5.0
+* Fix update doc from filesystem cause redundant authorship stringify
+* Fix export html to replace fallen cdn tortue.me to cdnjs
+* Fix rendering might result XSS attribute on self closing tag [Security Issue]
+* Fix out of sync when deleting on same cursor position on several clients
+* Fix not determine OT have pending operations properly
+* Fix to keep selections on save and restore info
+* Fix image path problem when using filesystem backend
+* Fix meta error not clear on before rendering
+* Fix duplicated headers anchor link not been updated properly
+* Fix checkLoginStateChanged might fall into infinite loop while calling loginStateChangeEvent
+* Fix to workaround text shadow for font antialias might cause cut off in Edge
+* Fix and refactor extracting content using metaMarked directly might lead in invalid object
+
+### Refactors
+* Refactor editor related code
+* Refactor code with JavaScript Standard Style
+* Refactor templates, partials and rearrange its path
+* Refactor front-end code with more modular concepts
+* Refactor front-end code using ES6 (also unify configs to `config.json`)
+
+### Removes
+- Removed UTF-8 BOM in download function
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; 0.5.0 `Ristretto` &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2017-01-02 02:35
+---
+### Enhancements
+* Update year to 2017 (Happy New Year!)
+* Update to improve editor performance by debounce checkEditorScrollbar event
+* Refactor data processing to model definition
+* Update to remove null byte on editor changes
+* Update to remove null byte before saving to DB
+* Update to support Esperanto locale
+* Little improvements (typos, uppercase + accents, better case) for French locale
+* Update features.md publish button name and icon
+
+### Fixes
+* Fix authorship might losing update event because of throttling
+* Fix migration script of revision lacks of definition of primary key
+* Fix to not use diff_cleanupSemantic
+* Fix URL concatenation when uploading images to local filesystem
+* Fix js-url not import correctly
+* Fixed typo: anonmyous
+* Fix codemirror spell checker not considering abbreviation which contain apostrophe in word
+* Fix possible user is undefined in realtime events
+* Fix wrong package name reference in webpack config for bootstrap-validator
+* Fix email option in config not parse correctly
+* Fix mathjax not able to render issue
+
+### Removes
+- Remove LZString compression for data storage
+- Remove LZString compression for some socket.io event data
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; 0.4.6 `Melya` &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2016-12-19 17:20
+---
+### Features
++ Add support of allow free url config option
++ Add support of allow anonymous config option
++ Add preferences to editor status bar and add allow override browser keymap option
++ Add support of s3 and local filesystem for image uploading
++ Add of support optional email register and signin
++ Use uWebSocket to improve websocket performance
++ Use CDNJS by default with https and SRI support
++ Use Webpack to bundle frontend code
+
+### Enhancements
+* Update to make TOC syntax be case-insensitive
+* Update to handle request with invalid uri
+* Update to auto generate meta description based on content in publish note and slide
+* Update to support haskell, go, typescript and jsx syntax highlighting in code block
+* Update to use workers to leverage intensive work loading
+* Update to support summary tag
+* Change use cdn config option default to be true
+* Update to retry when anytime the socket io disconnect
+* Change to raise socket io timeout, heartbeat interval and timeout to lower offline period
+* Update emoji parser using markdown-it-emoji instead of emojify
+* Optimize finishView selector performance by avoid universal selector
+* Config heroku deployment
+* Update to support Hindi, Swedish locale
+* Update to support wrap syntax for code block
+* Update to support pagination for history list
+
+### Fixes
+* Fix slide mode on print pdf not finish view rendering
+* Fix when server have heavy loading cache might not update to db properly
+* Fix redirection to url without trailing slashes not considering about config urlpath
+* Fix header id and text might affects by mathjax tags
+* Fix possible meta XSS in history list [Security Issue]
+* Fix possible XSS in yaml-metadata and turn using ejs escape syntax than external lib [Security Issue]
+* Fix to allow data attribute of section tag in slide
+* Fix slide might able to add unsafe attribute on section tag which cause XSS [Security Issue]
+* Fix slide might trigger script when processing markdown which cause XSS [Security Issue]
+* Fix published note won&#39;t scroll to hash on load
+* Fix mathjax with blockquote might have race condition
+* Fix server reconnect might not resend pending operations
+* Fix slide export pdf styles not applied issue
+* Fix possible unclose HTML and leaked html tags when fail to parse diagrams
+* Fix typos in the `slide-example.md`
+* Fix socket io doc event should setDoc when revision mismatch and no outstanding operation
+* Fix markdown styles conflicting bootstrap on p and ul under alert area
+* Fix finishView mermaid might select and replace whole markdown-body issue
+* Fix code block which in deeper level will not be parsed issue
+* Fix code block highlighting html not escaped when no languages specified
+* Fix client socket on delete event might not delete corresponding history record correctly
+* Fix to handle name or color is undefined error
+* Fix history item event not bind properly on pagination change
+* Fix history time should save in UNIX timestamp to avoid time offset issue 
+
+### Removes
+- Drop bower the package manager
+- Remove auto linkify image
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; 0.4.5 `latte` &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2016-10-11 01:22
+---
+### Features
++ Add more environment variables for server configuration
++ Add setup script for getting started
++ Add support of deleting note
++ Add support of shortcut keys which can add and remove symbol surround text
++ Add support of shortcut keys for changing mode
++ Add support of i18n (English, Chinese, French, German, Japanese, Spanish, Portuguese, Greek, Italian, Turkish, Russian, Dutch, Croatian, Polish, Ukrainian)
++ Add support of note info API
++ Add support of disqus via yaml-metadata
+
+### Enhancements
+* Optimize png images by using zopflipng
+* Update CodeMirror to 5.19.0 and rename jade to pug
+* Update to add cache to history and improve its performance
+* Update default indent to use spaces instead of tabs
+* Improve syntax highlighting performance
+* Update to make client handle syncing error better, use delay to avoid wrong document revision
+* Update to allow CORS as API on revision actions
+* Update to support showing owner on the infobar
+* Update to prevent duplicate client push in queue to lower down server loading
+* Reduce update view debounce time to make preview refresh quicker
+* Update help modal cheatsheet font styles to make it more clear on spaces
+* Update to add revision saving policy
+* Update to support tiddlywiki and mediawiki syntax highlighting in editor
+* Update to support save mode to url and vise versa
+* Update edit and publish icon and change toggle icon for UX  
+* Improve authorship markers update performance
+* Update slide mode to show extra info and support url actions
+* Change the last change user saving strategy
+* Update to support data uri in src attribute of image tag
+* Improve index layout and UX with UI adjustments
+* Update XSS policy to allow iframe and link with custom protocol
+* Update markdown styles to follow github latest layout styles
+* Update slide mode, now respect all meta settings and update default styles
+* Update to make ToC menu always accessible without scrolling
+* Update to make doc only update while filesystem content not match db content
+
+### Fixes
+* Fix README and features document format and grammar issues
+* Fix some potential memory leaks bugs
+* Fix history storage might not fallback correctly 
+* Fix to make mathjax expression display in editor correctly (not italic)
+* Fix note title might have unstriped html tags 
+* Fix client reconnect should resend last operation
+* Fix a bug when setting both maxAge and expires may cause user can&#39;t signin
+* Fix text complete extra tags for blockquote and referrals
+* Fix bug that when window close will make ajax fail and cause cookies set to wrong state
+* Fix markdown render might fall into regex infinite loop
+* Fix syntax error caused by element contain special characters 
+* Fix reference error caused by some scripts loading order 
+* Fix ToC id naming to avoid possible overlap with user ToC
+* Fix header nav bar rwd detect element should use div tag or it might glitch the layout
+* Fix textcomplete of extra tags for blockquote not match space character in the between
+* Fix text-shadow for text antialiased might cause IE or Edge text cutoff
+
+### Removes
+- Cancel updating history on page unload
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; 0.4.4 `mocha` &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2016-08-02 17:10
+---
+### Features
+* Add support of showing authorship in editor
+* Add support of saving authorship
+* Add support of saving authors
+* Add support of slide preview in both mode
+* Add support of all extra syntax in slide mode
+
+### Enhancements
+* Update realtime check and refresh event, compress data to minimize network transfer delay
+* Update to keep showing second level TOC if there is only one first level TOC
+* Update to add expand and collapse toggle for TOC
+* Update to make help modal and text complete hint using consistent reminder text
+* Update to support slideOptions in the yaml metadata for customize slides
+* Update to support redirect back to previous url after signin
+* Update to avoid duplicated rendering slides and reduce DOM wrap
+* Update CodeMirror to version 5.17.1
+* Update to make random color more discrete
+* Update user icon styles to make avatar more obvious
+* Update Bootstrap to 3.3.7 and jQuery to 3.1.0 with related patches
+* Update spell checker to ignore non-english or numeric alphabets
+* Update to auto rolling session for auto extending cookies expiration
+* Update some menu items and UIs
+* Update to reduce realtime timeout and heartbeat interval to handle stale clients quicker
+* Update to force note, publish note, publish slide redirect to their expected url
+* Update to change server pre-rendering engine to markdown-it
+
+### Fixes
+* Workaround vim mode might overwrite copy keyMap on Windows
+* Fix TOC might not update after changeMode
+* Workaround slide mode gets glitch and blurry text on Firefox 47+ 
+* Fix idle.js not change isAway property on onAway and onAwayBack events
+* Fix http body request entity too large issue
+* Fix google-diff-match-patch encodeURI exception issue
+* Fix yaml metadata title should pass to generateWebTitle
+* Fix spellcheck settings from cookies might not a boolean in string type
+* Fix cookies might not in boolean type cause page refresh loop
+* Fix the signin and logout redirect url might be empty
+* Fix realtime might not clear or remove invalid sockets in queue 
+* Fix slide not refresh layout on ajax item loaded 
+* Fix retryOnDisconnect not clean up after reconnected
+* Fix some potential memory leaks
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; 0.4.3 `espresso` &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2016-06-28 02:04
+---
+### Features
+* Add support of spellcheck
+* Add support of light editor theme
+* Add support of embed pdf
+* Add support of exporting raw html
+* Add revision modal with UIs and support marking patch diff texts
+* Add support of saving note revision
+
+### Enhancements
+* Update to extend login info cookies to 365 days to reduce reductant page refresh
+* Update to support new metadata: title, description, tags and google-analytics
+* Prevent crawling editing note to enhance privacy
+* Update to remove all data lines attributes to gain better update performance
+* Update refresh modal to show more detail informations
+* Update to make cursor tag default as hover mode to prevent tag overlay other lines
+* Update highlight.js to version 9.4.0 and use bower dependency
+* Improve history performance
+
+### Fixes
+* Fix history filter tags and search keyword might not apply after refresh
+* Fix part class in list item might infect buildMap process
+* Fix pdf tmp path is missing a folder slash before timestamp
+* Fix realtime connection get stock when lots of client try to connect at same moment
+* Fix locked or private permission should block any operation if owner is null
+* Add back missing support of image size syntax in 0.4.2
+* Fix update permission might cause duplicate view rendering
+* Fix on paste long document to editor might cause scroll not syncing
+* Workaround CodeMirror won&#39;t draw selections outside of the viewport
+* Fix to make socket keep retry after disconnect on server maintenance
+
+### Removes
+- Remove metadata spellcheck support
+- Remove robot meta on note edit page and html template
+
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; 0.4.2 `cappuccino` &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2016-04-22 10:43
+---
+### Features
++ Support sync scrolling to edit area
++ Support import and export with GitLab snippet
++ Support GitLab signin
++ Add cheatsheet and help modal
+
+### Enhancements
+* Upgrade CodeMirror to version 5.15.3
+* Support maintenance mode and gracefully exit process on signal
+* Update to update doc in db when doc in filesystem have newer modified time
+* Update to replace animation acceleration library from gsap to velocity
+* Support image syntax with size 
+* Update textcomplete rules to support more conditions
+* Update to use bigger user profile image
+* Support showing signin button only when needed
+
+### Fixes
+* Fix other clients&#39; cursor might disappear or move out of bound
+* Fix to handle user profile image not exists
+* Fix potential toolbar layout glitch
+* Fix imgur uploads should always use https to avoid mix-content warning
+* Fix to change fullscreen key to avoid OS key conflicts
+* Fix and change ESC key in Vim mode
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; 0.4.1 &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2016-04-22 10:43
+---
+### Enhancements
+* Support when client domain not provided will use window.location variable
+* Support when domain not provided will use relative path
+* Support DOMAIN and URL_PATH environment variables
+
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; 0.4.0 `first-year` &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2016-04-20 14:30
+---
+### Features
++ Support docs
++ Support Ionicons and Octicons
++ Support mermaid diagram
++ Support import and export with Gist
++ Support import and export with Google Drive
++ Support more options in YAML metadata
++ Support change keymap and indentation size/type
+
+### Enhancements
+* Change header anchor styles
+* Refactor server code and configs
+* Support experimental spell checking
+* Upgrade CodeMirror to 5.13.5
+* Update to emit info and disconnect clients if updater get errors
+* Support to indicate if the note status is created or updated
+* Support more DB types
+* Server now use ORM for DBs
+* Support static file cache
+* Support more ssl settings
+* Improve server stablilty
+* Improve server performance
+* Support Ionicons
+* Support container syntax and styles
+* Improve input performance
+* Change markdown engine from remarkable to markdown-it
+* Server now support set sub url path
+* Support textcomplete in multiple editing
+* Update to filter XSS on rendering
+* Update to make sync scroll lerp on last line
+* Update to make continue list in todo list default as unchecked
+* Support auto indent whole line in list or blockquote
+
+### Fixes
+* Fix status bar might be inserted before loaded
+* Fix mobile layout and focus issues
+* Fix editor layout and styles might not handle correctly
+* Fix all diagram rendering method and styles to avoid partial update gets wrong
+* Fix to ignore process image which already wrapped by link node
+* Fix when cut or patse scroll map might get wrong
+* Fix to handle more socket error and info status
+* Fix textcomplete not matching properly
+* Fix and refactor cursor tag and cursor menu
+* Fix Japanese, Chinese font styles
+* Fix minor bugs of UI and seletor syntaxes
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; 0.3.4 `techstars` &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2016-01-19 00:22
+---
+### Features
++ Beta Support slide mode
++ Beta Support export to PDF
++ Support TOC syntax
++ Support embed slideshare and speakerdeck
++ Support Graphviz charts
++ Support YAML metadata
++ Support private permission
+
+### Enhancements
+* Support pin note in history
+* Support IE9 and above
+* Support specify and continue line number in code block
+* Changed all embed layout to 100% width
+* Added auto detect default mode
+* Support show last change note user
+* Upgrade CodeMirror to 5.10.1 with some manual patches
+* Improved server performance
+* Support autocomplete for code block languages of charts
+
+### Fixes
+* Fixed some server connection issues
+* Fixed several issues cause scrollMap incorrect
+* Fixed cursor animation should not apply on scroll
+* Fixed a possible bug in partial update
+* Fixed internal href should not link out
+* Fixed dropbox saver url not correct
+* Fixed mathjax might not parse properly
+* Fixed sequence diagram might render multiple times
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; 0.3.3 `moon-festival` &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2015-09-27 14:00
+---
+### Features
++ Added status bar below editor
++ Added resizable grid in both mode
++ Added title reminder if have unread changes
++ Support todo list change in the view mode
++ Support export to HTML
++ Changed to a new theme, One Dark(modified version)
+
+### Enhancements
+* Support extra tags in todo list
+* Changed overall font styles
+* Optimized build sync scroll map, gain lots better performance
+* Support and improved print styles
+* Support to use CDN
+* Image and link will href to new tab ors window
+* Support auto scroll to corresponding position when change mode from view to edit
+* Minor UI/UX tweaks
+
+### Fixes
+* Change DB schema to support long title
+* Change editable permission icon to avoid misunderstanding
+* Fixed some issues in OT and reconnection
+* Fixed cursor menu and cursor tag are not calculate doc height properly
+* Fixed scroll top might not animate
+* Fixed scroll top not save and restore properly
+* Fixed history might not delete or clear properly
+* Fixed server might not clean client properly
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; 0.3.2 `typhoon` &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2015-07-11 12:30
+---
+### Features
++ Support operational transformation
++ Support show other user selections
++ Support show user profile image if available
+
+### Enhancements
+* Updated editor to 5.4.0
+* Change UI share to publish to avoid misleading
+* Added random color in blockquote tag
+* Optimized image renderer, avoid duplicated rendering
+* Optimized building syncscroll map, make it faster
+* Optimized SEO on publish and edit note
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; 0.3.1 `clearsky` &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2015-06-30 16:00
+---
+### Features
++ Added auto table of content
++ Added basic permission control
++ Added view count in share note
+
+### Enhancements
+* Toolbar now will hide in single view
+* History time now will auto update
+* Smooth scroll on anchor changed
+* Updated video style
+
+### Fixes
+* Note might not clear when all users disconnect
+* Blockquote tag not parsed properly
+* History style not correct
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; 0.3.0 `sunrise` &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2015-06-15 24:00
+---
+### Enhancements
+* Used short url in share notes
+* Added upload image button on toolbar
+* Share notes are now SEO and mobile friendly
+* Updated code block style
+* Newline now will cause line breaks
+* Image now will link out
+* Used otk to avoid race condition
+* Used hash to avoid data inconsistency
+* Optimized server realtime script
+
+### Fixes
+* Composition input might lost or duplicated when other input involved
+* Note title might not save properly
+* Todo list not render properly
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; 0.2.9 `wildfire` &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2015-05-30 14:00
+---
+### Features
++ Support text auto complete
++ Support cursor tag and random last name
++ Support online user list
++ Support show user info in blockquote
+
+### Enhancements
+* Added more code highlighting support
+* Added more continue list support
+* Adjust menu and history filter UI for better UX
+* Adjust sync scoll animte to gain performance
+* Change compression method of dynamic data
+* Optimized render script
+
+### Fixes
+* Access history fallback might get wrong
+* Sync scroll not accurate
+* Sync scroll reach bottom range too much
+* Detect login state change not accurate
+* Detect editor focus not accurate
+* Server not handle some editor events
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; 0.2.8 `flame` &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2015-05-15 12:00
+---
+### Features
++ Support drag-n-drop(exclude firefox) and paste image inline
++ Support tags filter in history
++ Support sublime-like shortcut keys
+
+### Enhancements
+* Adjust index description
+* Adjust toolbar ui and view font
+* Remove scroll sync delay and gain accuracy
+
+### Fixes
+* Partial update in the front and the end might not render properly
+* Server not handle some editor events
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; 0.2.7 `fuel` &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2015-05-03 12:00
+---
+### Features
++ Support facebook, twitter, github, dropbox login
++ Support own history
+
+### Enhancements
+* Adjust history ui
+* Upgrade realtime package
+* Upgrade editor package, now support composition input better
+
+### Fixes
+* Partial update might not render properly
+* Cursor focus might not at correct position
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; 0.2.6 `zippo` &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2015-04-24 16:00
+---
+### Features
++ Support sync scroll
++ Support partial update
+
+### Enhancements
+* Added feedback ui
+* Adjust animations and delays
+* Adjust editor viewportMargin for performance
+* Adjust emit refresh event occasion
+* Added editor fallback fonts
+* Index page auto focus at history if valid
+
+### Fixes
+* Server might not disconnect client properly
+* Resume connection might restore wrong info
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; 0.2.5 `lightning` &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2015-04-14 21:10
+---
+### Features
++ Support import from dropbox and clipboard
++ Support more code highlighting
++ Support mathjax, sequence diagram and flow chart
+
+### Enhancements
+* Adjust toolbar and layout style
+* Adjust mobile layout style
+* Adjust history layout style
+* Server using heartbeat to gain accuracy of online users
+
+### Fixes
+* Virtual keyboard might broken the navbar
+* Adjust editor viewportMargin for preloading content
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; 0.2.4 `flint` &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2015-04-10 12:40
+---
+### Features
++ Support save to dropbox
++ Show other users&#39; cursor with light color
+
+### Enhancements
+* Adjust toolbar layout style for future
+### Fixes
+* Title might not render properly
+* Code border style might not show properly
+* Server might not connect concurrent client properly
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; 0.2.3 `light` &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2015-04-06 20:30
+---
+### Features
++ Support youtube, vimeo
++ Support gist
++ Added quick link in pretty
++ Added font-smoothing style
+
+### Enhancements
+* Change the rendering engine to remarkable
+* Adjust view, todo list layout style for UX
++ Added responsive layout check
++ Auto reload if client version mismatch
++ Keep history stack after reconnect if nothing changed
++ Added features page
+
+### Fixes
+* Closetags auto input might not have proper origin
+* Autofocus on editor only if it&#39;s on desktop
+* Prevent using real script and iframe tags
+* Sorting in history by time not percise
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; 0.2.2 `fire` &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2015-03-27 21:10
+---
+### Features
++ Support smartLists, smartypants
++ Support line number on code block
++ Support tags and search or sort history
+
+### Enhancements
++ Added delay on socket change
++ Updated markdown-body width to match github style
++ Socket changes now won&#39;t add to editor&#39;s history
++ Reduce redundant server events
+
+### Fixes
+* Toolbar links might get wrong
+* Wrong action redirections
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; 0.2.1 `spark` &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2015-03-17 13:40
+---
+
+### Features
++ Support github-like todo-list
++ Support emoji
+
+ ### Enhancements
++ Added more effects on transition
++ Reduced rendering delay
++ Auto close and match brackets
++ Auto close and match tags
++ Added code fold and fold gutters
++ Added continue listing of markdown
+
+&lt;i class=&#34;fa fa-tag&#34;&gt;&lt;/i&gt; 0.2.0 `launch-day` &lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt; 2015-03-14 20:20
+---
+### Features
+
++ Markdown editor
++ Preview html
++ Realtime collaborate
++ Cross-platformed
++ Recently used history
+</div>
+    <div class="ui-toc dropup unselectable hidden-print" style="display:none;">
+        <div class="pull-left dropdown">
+            <a id="tocLabel" class="ui-toc-label btn btn-default" data-toggle="dropdown" href="release-notes#" role="button" aria-haspopup="true" aria-expanded="false" title="Table of content">
+                <i class="fa fa-bars"></i>
+            </a>
+            <ul id="ui-toc" class="ui-toc-dropdown dropdown-menu" aria-labelledby="tocLabel">
+            </ul>
+        </div>
+    </div>
+    <div id="ui-toc-affix" class="ui-affix-toc ui-toc-dropdown unselectable hidden-print" data-spy="affix" style="display:none;"></div>
+    
+
+    <div class="clearfix"></div>
+    <footer class="hidden-print">
+        <div class="container-thiner">
+            <div class="footer">
+                <div class="footer__published-by">
+                    Published on <strong><a href="../index.html" target="_blank"><i class="fa fa-file-text"></i> HackMD</a></strong>
+                </div>
+                <div class="footer__views">
+                    <i class="fa fa-eye"></i> <span class="ui-viewcount">38909</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- signin modal -->
+<div class="modal fade signin-modal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin-top: 10px; right: 20px; position: absolute;"><span aria-hidden="true">&times;</span></button>
+            
+
+
+
+
+
+
+    
+
+
+
+
+
+
+<h3>Sign in</h3>
+
+<form data-toggle="validator" role="form" class="form-horizontal" method="post" enctype="application/x-www-form-urlencoded">
+    <div class="dn"><input type="hidden" name="_csrf" value="h8xMyWsn-jkdZpHzyq_0vQ1M7bhXIg39yxKY"></div>
+    <div class="dn"><input type="hidden" name="create_team" value="false"></div>
+    <div class="dn"><input type="hidden" name="create_paid_team" value="false"></div>
+    <div class="form-group  ">
+        <label for="email" class="control-label">Email</label>
+        <label for="inputEmail" class="control-label pull-right errors">
+            
+        </label>
+        <span class="help-block control-label with-errors pull-right" style="display: inline;"></span>
+        <div class="input-block">
+            
+                <input type="email" class="form-control" name="email" placeholder="Your email" required autocomplete="email">
+            
+            <span class="error-sign"></span>
+        </div>
+    </div>
+    <div class="form-group ">
+        <label for="password" class="control-label">Password</label>
+        <label for="inputPassword" class="control-label pull-right errors">
+            
+        </label>
+        <span class="help-block control-label with-errors pull-right" style="display: inline;"></span>
+        <div class="input-block">
+            <input type="password" class="form-control" name="password" placeholder="Your password" required autocomplete="current-password">
+            <span class="error-sign"></span>
+            
+                <span class="control-label pull-right" style="font-size: 13px; margin-top: 5px;"><a href="../settings/forgotPassword" style="text-decoration: underline;">Forgot password</a></span>
+            
+        </div>
+    </div>
+
+    <div style="text-align: center; padding-top: 15px; margin-bottom: 0px;">
+        
+            <input type="submit" class="btn btn-success btn-large" formaction="https://hackmd.io/login" value="Sign in">
+        
+
+        
+    </div>
+</form>
+
+
+
+
+
+
+
+
+    
+        <p class="seperator">or</p>
+    
+
+    
+        <p>By clicking below, you agree to our <a href="terms" target="_blank">terms of service</a>.</p>
+    
+
+    <div class="social-buttons-container">
+    
+    <a href="../auth/facebook" class="btn btn-lg btn-block btn-social btn-facebook">
+        <i class="fa fa-facebook"></i> Sign in via Facebook
+    </a>
+    
+    
+    <a href="../auth/twitter" class="btn btn-lg btn-block btn-social btn-twitter">
+        <i class="fa fa-twitter"></i> Sign in via Twitter
+    </a>
+    
+    
+    <a href="../auth/github" class="btn btn-lg btn-block btn-social btn-github">
+        <i class="fa fa-github"></i> Sign in via GitHub
+    </a>
+    
+    
+    <a href="../auth/dropbox" class="btn btn-lg btn-block btn-social btn-dropbox">
+        <i class="fa fa-dropbox"></i> Sign in via Dropbox
+    </a>
+    
+    
+    <a href="../auth/google" class="btn btn-lg btn-block btn-social btn-google">
+        <i class="icon icon-google"></i> Sign in via Google
+    </a>
+    
+    
+</div>
+
+
+
+
+
+    <div >
+        <p>New to HackMD? <a href="../join">Sign up</a></p>
+    </div>
+
+
+        </div>
+    </div>
+</div>
+
+    
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-60728495-1"></script>
+<script nonce="5a2d1df9-f348-452a-8d09-f8378cd2a212">
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    let userid = (document.cookie.match('(^|; )userid=([^;]*)')||0)[2];
+    gtag('config', 'UA-60728495-1', {'user_id': userid});
+</script>
+<script src="https://browser.sentry-cdn.com/5.15.5/bundle.min.js" crossorigin="anonymous"></script>
+<script nonce="5a2d1df9-f348-452a-8d09-f8378cd2a212">Sentry.init({ dsn: 'https://73410f1915d84abc8b2dd1f1aabd1c82@sentry.hackmd.dev/4', environment: 'production', integrations: function (intrus) { return intrus.filter(function (itr) { return itr.name !== 'TryCatch' }) } });</script>
+
+
+    
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KLW9Z3"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+    <script src="../api/i18n.js"></script>
+    
+         <script src="https://assets.hackmd.io/build/font-vendor.3c28db3001b8bd6f1d3f.js" defer="defer"></script><script src="https://assets.hackmd.io/build/common-vendor.d485f77e88ea7ed44236.js" defer="defer"></script><script src="https://assets.hackmd.io/build/pretty-vendor.5ce8e32a76fa98ff2e12.js" defer="defer"></script><script src="https://assets.hackmd.io/build/pretty-common.07aba69e3f85f3c0bee7.js" defer="defer"></script><script src="https://assets.hackmd.io/build/pretty.687db489ea1354518101.js" defer="defer"></script>
+    
+    
+
+</body>
+</html>
